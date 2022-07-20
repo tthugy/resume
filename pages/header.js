@@ -6,7 +6,10 @@ export default function Header() {
   return (
     <header>
       <span className={styles.tIcon}>👨🏻‍💻</span>
-      <p>기술이력서</p>
+      <div className={styles.title}>
+        <span/>
+        <p>기술이력서</p>
+      </div>
     </header>
   )
 }

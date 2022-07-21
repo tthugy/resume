@@ -37,8 +37,17 @@ export default function Header() {
             <div>2년차 프론트엔드 개발자입니다. 2년차 프론트엔드 개발자입니다. 2년차 프론트엔드 개발자입니다. 2년차 프론트엔드 개발자입니다. 2년차 프론트엔드 개발자입니다. 2년차 프론트엔드 개발자입니다. 2년차 프론트엔드 개발자입니다. 2년차 프론트엔드 개발자입니다. 2년차 프론트엔드 개발자입니다. </div>
         </div>
 
-        <div className={styles.links}>
-
+        <div className={styles.company}>
+          <ul>
+            <li>
+              <div>
+                정상
+                <span>프론트엔드 개발자</span> 
+                <span className={styles.comPeriod}>21.04 ~ current</span> 
+              </div>
+              <span className={styles.comCont}>핀테크 서비스업에서 프론트엔드 개발을 담당하고 있습니다.</span>
+            </li>
+          </ul>
         </div>
     </main>
   )

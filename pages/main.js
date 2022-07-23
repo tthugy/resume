@@ -55,7 +55,12 @@ export default function Header() {
         </div>
 
         <div className={styles.education}>
-          <p>Education</p>
+          <p>Educations</p>
+          <span>백석대학교, 16.03 ~ 22.02</span>
+          <ul>
+            <li>주전공: 정보통신학</li>
+            <li>복수전공: 컬처테크융합</li>
+          </ul>
         </div>
     </main>
   )

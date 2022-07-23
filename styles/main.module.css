@@ -137,3 +137,17 @@
     font-size: 1.3rem;
     font-weight: 700;
 }
+
+.education span {
+    display: block;
+}
+
+.education ul {
+    list-style-type: disc;
+    padding-left: 1.4rem;
+    margin-top: .4rem;
+}
+
+.education ul li {
+    padding: .25rem 0;
+}

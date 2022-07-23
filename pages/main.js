@@ -49,6 +49,10 @@ export default function Header() {
             </li>
           </ul>
         </div>
+
+        <div className={styles.project}>
+          <p>My Projects</p>
+        </div>
     </main>
   )
 }

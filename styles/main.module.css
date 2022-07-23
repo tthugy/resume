@@ -20,6 +20,7 @@
 .intro p span i {
     cursor: pointer;
     position: relative;
+    z-index: 1;
     transition: all .5 ease;
 }
 
@@ -43,8 +44,8 @@
 
 .company {
     margin-top: 3rem;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1.5px solid #d4e2f2;
+    border-bottom: 1.5px solid #d4e2f2;
     width: 100%;
 }
 
@@ -87,6 +88,7 @@
     font-style: normal;
     font-size: .8rem;
     color: #fff;
+    z-index: 1;
 }
 
 .support:before {
@@ -118,4 +120,12 @@
 
 .comCont {
     font-size: .95rem;
+}
+
+.project {
+    padding-top: .6rem;
+}
+.project p {
+    font-size: 1.3rem;
+    font-weight: 700;
 }

@@ -53,6 +53,10 @@ export default function Header() {
         <div className={styles.project}>
           <p>My Projects</p>
         </div>
+
+        <div className={styles.education}>
+          <p>Education</p>
+        </div>
     </main>
   )
 }

@@ -180,4 +180,5 @@
 .commitBox .commitDesc a {
     color: #3560b8;
     cursor: pointer;
+    font-weight: 500;
 }

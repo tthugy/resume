@@ -71,7 +71,7 @@ export default function Header() {
           <span className={styles.commitDesc}>
             저는 대학교를 졸업한 이래로, 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
             <br/><br/>
-            이를 증명할 수 있는 것이 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정</a>이 아닐까 합니다. 위 이미지는 저의 Github 커밋 내역을 그래프화한 것입니다.
+            이를 증명할 수 있는 것이 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정</a>일 것 같습니다. 위 이미지는 저의 Github 커밋 내역을 그래프화한 것입니다.
           </span>
         </div>
 

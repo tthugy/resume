@@ -77,6 +77,7 @@ export default function Header() {
 
         <div className={styles.project}>
           <p>My Projects</p>
+          삼성증권 투자스쿨
         </div>
     </main>
   )

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import styles from '../styles/main.module.css'
 import Commit from '../public/myCommit.png'
 import CommitDk from '../public/myCommit_dark.png'
+import samsung from '../public/samsungPop.mov'
 
 export default function Header() {
 

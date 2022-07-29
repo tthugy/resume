@@ -79,8 +79,16 @@ export default function Header() {
 
         <div className={styles.project}>
           <p>My Projects</p>
-          삼성증권 투자스쿨
-          <ReactPlayer
+          <div>
+            <span>워블</span>
+          </div>
+          <div>
+            <span>땡스페이</span>
+          </div>
+          <div>
+            <span>삼성증권 투자스쿨</span>
+          </div>
+          {/* <ReactPlayer
               url={'../public/samsungPop.mp4'}    // 플레이어 url
               width='350px'         // 플레이어 크기 (가로)
               height='700px'        // 플레이어 크기 (세로)
@@ -91,7 +99,7 @@ export default function Header() {
               pip={true}            // pip 모드 설정 여부
               // poster={'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg'}   // 플레이어 초기 포스터 사진
               // onEnded={() => handleVideo()}  // 플레이어 끝났을 때 이벤트
-          />
+          /> */}
         </div>
     </main>
   )

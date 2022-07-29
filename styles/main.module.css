@@ -186,3 +186,12 @@
 .pList {
     padding: 1rem 0;
 }
+
+.pList p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.pList span {
+    font-size: .9rem;
+}

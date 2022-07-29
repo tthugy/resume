@@ -80,13 +80,16 @@ export default function Header() {
         <div className={styles.project}>
           <p>My Projects</p>
           <div className={styles.pList}>
-            <span>워블</span>
+            <p>워블</p>
+            <span>워블 프로젝트</span>
           </div>
           <div className={styles.pList}>
-            <span>땡스페이</span>
+            <p>땡스페이</p>
+            <span>땡스페이 프로젝트</span>
           </div>
           <div className={styles.pList}>
-            <span>삼성증권 투자스쿨</span>
+            <p>삼성증권 투자스쿨</p>
+            <span>투자스쿨 프로젝트</span>
           </div>
           {/* <ReactPlayer
               url={'../public/samsungPop.mp4'}    // 플레이어 url

@@ -182,3 +182,7 @@
     cursor: pointer;
     font-weight: 500;
 }
+
+.pList {
+    padding: 1rem 0;
+}

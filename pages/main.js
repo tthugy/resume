@@ -79,13 +79,13 @@ export default function Header() {
 
         <div className={styles.project}>
           <p>My Projects</p>
-          <div>
+          <div className={styles.pList}>
             <span>워블</span>
           </div>
-          <div>
+          <div className={styles.pList}>
             <span>땡스페이</span>
           </div>
-          <div>
+          <div className={styles.pList}>
             <span>삼성증권 투자스쿨</span>
           </div>
           {/* <ReactPlayer

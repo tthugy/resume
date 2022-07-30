@@ -9,6 +9,10 @@ import CommitDk from '../public/myCommit_dark.png'
 import ReactPlayer from 'react-player/lazy';
 import samsung1 from '../public/samsung1.png'
 import samsung2 from '../public/samsung2.png'
+import wobble1 from '../public/wobble1.png'
+import wobble2 from '../public/wobble2.png'
+import thx1 from '../public/thx1.png'
+import thx2 from '../public/thx2.png'
 
 export default function Header() {
 
@@ -83,22 +87,22 @@ export default function Header() {
           <p>My Projects</p>
           <div className={styles.pList}>
             <div className={styles.pLeft}>
-              <p>삼성증권 투자스쿨</p>
-              <span className={styles.pSubment}>투자스쿨 프로젝트</span>
+              <p>워블</p>
+              <span className={styles.pSubment}>워블 프로젝트</span>
             </div>
             <div className={styles.pRight}>
               <span className={styles.pImage}>
-                <Image src={samsung1} layout='responsive' objectFit='contain' priority />
+                <Image src={wobble1} layout='responsive' objectFit='contain' priority />
               </span>
               <span className={styles.pImage}>
-                <Image src={samsung2} layout='responsive' objectFit='contain' priority />
+                <Image src={wobble2} layout='responsive' objectFit='contain' priority />
               </span>
             </div>
           </div>
           <div className={styles.pList}>
             <div className={styles.pLeft}>
-              <p>삼성증권 투자스쿨</p>
-              <span className={styles.pSubment}>투자스쿨 프로젝트</span>
+              <p>땡스페이</p>
+              <span className={styles.pSubment}>땡스페이 프로젝트</span>
             </div>
             <div className={styles.pRight}>
               <span className={styles.pImage}>

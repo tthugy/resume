@@ -84,7 +84,7 @@ export default function Header() {
         </div>
 
         <div className={styles.project}>
-          <p className={styles.titles}>My Projects.</p>
+          <p className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects.</p>
           <div className={styles.pList}>
             <div className={styles.pLeft}>
               <p>워블</p>

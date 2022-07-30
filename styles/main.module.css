@@ -124,7 +124,7 @@
 }
 
 .titles {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
     background: linear-gradient(7deg, #78e7ff -18%, #3560b8 113%);
     color: #fff;
@@ -166,11 +166,6 @@
     padding: 1.45rem 0;
 }
 
-.commitBox p {
-    font-size: 1.6rem;
-    font-weight: 700;
-}
-
 .commitImg {
     width: 50%;
     margin: 0 auto;
@@ -189,8 +184,12 @@
     font-weight: 500;
 }
 
+.ctitles {
+    margin-bottom: 0;
+}
+
 .pList {
-    padding: 1.6rem 0;
+    padding: 2.45rem 0;
     display: flex;
     justify-content: space-between;
 }

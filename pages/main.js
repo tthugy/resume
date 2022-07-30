@@ -5,8 +5,6 @@ import Link from 'next/link'
 import styles from '../styles/main.module.css'
 import Commit from '../public/myCommit.png'
 import CommitDk from '../public/myCommit_dark.png'
-// import samsung from '../public/samsungPop.mov'
-import ReactPlayer from 'react-player/lazy';
 import samsung1 from '../public/samsung1.png'
 import samsung2 from '../public/samsung2.png'
 import wobble1 from '../public/wobble1.png'
@@ -61,16 +59,18 @@ export default function Header() {
         </div>
 
         <div className={styles.education}>
-          <p>Educations</p>
-          <span>백석대학교, 16.03 ~ 22.02</span>
-          <ul>
-            <li>주전공: 정보통신학</li>
-            <li>복수전공: 컬처테크융합</li>
-          </ul>
+          <p className={styles.titles}>Educations.</p>
+          <div className={styles.eduCont}>
+            <span>백석대학교, 16.03 ~ 22.02</span>
+            <ul>
+              <li>주전공: 정보통신학</li>
+              <li>복수전공: 컬처테크융합</li>
+            </ul>
+          </div>
         </div>
 
         <div className={styles.commitBox}>
-          <p>Self Improvement</p>
+          <p className={styles.titles}>Self Improvement.</p>
           <div className={styles.commitImg}>
             <span className={styles.commit}>
               <Image src={Commit} layout='responsive' objectFit='contain' priority />
@@ -79,16 +79,26 @@ export default function Header() {
           <span className={styles.commitDesc}>
             저는 대학교를 졸업한 이래로, 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
             <br/><br/>
-            이를 가장 확연하게 증명할 수 있는 것이 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정</a>일 것 같습니다. 위 이미지는 저의 Github 커밋 내역을 그래프화한 것입니다.
+            위 이미지는 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정</a> 커밋 내역을 그래프화한 것으로써, 이를 가장 확연하게 증명할 수 있을 것 같습니다.
           </span>
         </div>
 
         <div className={styles.project}>
-          <p>My Projects</p>
+          <p className={styles.titles}>My Projects.</p>
           <div className={styles.pList}>
             <div className={styles.pLeft}>
               <p>워블</p>
-              <span className={styles.pSubment}>워블 프로젝트</span>
+              <ul className={styles.projectDesc}>
+                <li>업무 효율을 높여주는 스케줄 관리 협업툴</li>
+                <li className={styles.bold}>기술 스택</li>
+                <ul className={styles.pDetailDesc}>
+                  <li>Next.js</li>
+                  <li>css-module</li>
+                  <li>zustand</li>
+                </ul>
+                <li className={styles.bold}>Description</li>
+                <span>-</span>
+              </ul>
             </div>
             <div className={styles.pRight}>
               <span className={styles.pImage}>
@@ -102,7 +112,15 @@ export default function Header() {
           <div className={styles.pList}>
             <div className={styles.pLeft}>
               <p>땡스페이</p>
-              <span className={styles.pSubment}>땡스페이 프로젝트</span>
+              <ul className={styles.projectDesc}>
+                <li>페이, 커머스, 거래소 등 다양한 서비스를 즐길 수 있는 App</li>
+                <li className={styles.bold}>기술 스택</li>
+                <ul className={styles.pDetailDesc}>
+                  <li>-</li>
+                </ul>
+                <li className={styles.bold}>Description</li>
+                <span>-</span>
+              </ul>
             </div>
             <div className={styles.pRight}>
               <span className={styles.pImage}>
@@ -116,7 +134,15 @@ export default function Header() {
           <div className={styles.pList}>
             <div className={styles.pLeft}>
               <p>삼성증권 투자스쿨</p>
-              <span className={styles.pSubment}>투자스쿨 프로젝트</span>
+              <ul className={styles.projectDesc}>
+                <li>투자 초보자(주린이)들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
+                <li className={styles.bold}>기술 스택</li>
+                <ul className={styles.pDetailDesc}>
+                  <li>-</li>
+                </ul>
+                <li className={styles.bold}>Description</li>
+                <span>-</span>
+              </ul>
             </div>
             <div className={styles.pRight}>
               <span className={styles.pImage}>
@@ -127,19 +153,10 @@ export default function Header() {
               </span>
             </div>
           </div>
-          {/* <ReactPlayer
-              url={'../public/samsungPop.mp4'}    // 플레이어 url
-              width='350px'         // 플레이어 크기 (가로)
-              height='700px'        // 플레이어 크기 (세로)
-              playing={true}        // 자동 재생 on
-              muted={true}          // 자동 재생 on
-              controls={true}       // 플레이어 컨트롤 노출 여부
-              light={false}         // 플레이어 모드
-              pip={true}            // pip 모드 설정 여부
-              // poster={'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg'}   // 플레이어 초기 포스터 사진
-              // onEnded={() => handleVideo()}  // 플레이어 끝났을 때 이벤트
-          /> */}
         </div>
+        <p className={styles.end}>
+          감사합니다.
+        </p>
     </main>
   )
 }

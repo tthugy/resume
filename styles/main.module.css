@@ -124,20 +124,20 @@
 }
 
 .project {
-    padding-top: .85rem;
-    padding-bottom: .85rem;
+    padding: 1.45rem 0;
 }
 .project p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
     font-weight: 700;
 }
 
 .education {
-    padding-top: .85rem;
-    padding-bottom: .85rem;
+    padding: 1.45rem 0;
 }
 .education p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
     font-weight: 700;
 }
 
@@ -157,12 +157,12 @@
 
 .commitBox {
     position: relative;
-    padding-top: .85rem;
-    padding-bottom: .85rem;
+    padding: 1.45rem 0;
 }
 
 .commitBox p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
     font-weight: 700;
 }
 

@@ -106,10 +106,10 @@ export default function Header() {
             </div>
             <div className={styles.pRight}>
               <span className={styles.pImage}>
-                <Image src={samsung1} layout='responsive' objectFit='contain' priority />
+                <Image src={thx1} layout='responsive' objectFit='contain' priority />
               </span>
               <span className={styles.pImage}>
-                <Image src={samsung2} layout='responsive' objectFit='contain' priority />
+                <Image src={thx2} layout='responsive' objectFit='contain' priority />
               </span>
             </div>
           </div>

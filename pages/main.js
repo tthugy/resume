@@ -7,6 +7,8 @@ import Commit from '../public/myCommit.png'
 import CommitDk from '../public/myCommit_dark.png'
 // import samsung from '../public/samsungPop.mov'
 import ReactPlayer from 'react-player/lazy';
+import samsung1 from '../public/samsung1.png'
+import samsung2 from '../public/samsung2.png'
 
 export default function Header() {
 
@@ -80,16 +82,46 @@ export default function Header() {
         <div className={styles.project}>
           <p>My Projects</p>
           <div className={styles.pList}>
-            <p>워블</p>
-            <span>워블 프로젝트</span>
+            <div className={styles.pLeft}>
+              <p>삼성증권 투자스쿨</p>
+              <span className={styles.pSubment}>투자스쿨 프로젝트</span>
+            </div>
+            <div className={styles.pRight}>
+              <span className={styles.pImage}>
+                <Image src={samsung1} layout='responsive' objectFit='contain' priority />
+              </span>
+              <span className={styles.pImage}>
+                <Image src={samsung2} layout='responsive' objectFit='contain' priority />
+              </span>
+            </div>
           </div>
           <div className={styles.pList}>
-            <p>땡스페이</p>
-            <span>땡스페이 프로젝트</span>
+            <div className={styles.pLeft}>
+              <p>삼성증권 투자스쿨</p>
+              <span className={styles.pSubment}>투자스쿨 프로젝트</span>
+            </div>
+            <div className={styles.pRight}>
+              <span className={styles.pImage}>
+                <Image src={samsung1} layout='responsive' objectFit='contain' priority />
+              </span>
+              <span className={styles.pImage}>
+                <Image src={samsung2} layout='responsive' objectFit='contain' priority />
+              </span>
+            </div>
           </div>
           <div className={styles.pList}>
-            <p>삼성증권 투자스쿨</p>
-            <span>투자스쿨 프로젝트</span>
+            <div className={styles.pLeft}>
+              <p>삼성증권 투자스쿨</p>
+              <span className={styles.pSubment}>투자스쿨 프로젝트</span>
+            </div>
+            <div className={styles.pRight}>
+              <span className={styles.pImage}>
+                <Image src={samsung1} layout='responsive' objectFit='contain' priority />
+              </span>
+              <span className={styles.pImage}>
+                <Image src={samsung2} layout='responsive' objectFit='contain' priority />
+              </span>
+            </div>
           </div>
           {/* <ReactPlayer
               url={'../public/samsungPop.mp4'}    // 플레이어 url

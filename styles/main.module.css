@@ -184,14 +184,46 @@
 }
 
 .pList {
-    padding: 1rem 0;
+    padding: 1.6rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pList ~ .pList {
+    border-top: .5px solid #3560b8;
 }
 
 .pList p {
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.35rem;
+    font-weight: 600;
 }
 
-.pList span {
-    font-size: .9rem;
+.pSubment {
+    font-size: .95rem;
+    margin-top: 2rem;
+    display: block;
+}
+
+.pImage {
+    width: 100%;
+    display: block;
+    overflow: scroll;
+}
+
+.pImage:last-child {
+    margin-left: 1rem;
+}
+
+.pLeft {
+    display: block;
+    width: 48%;
+    margin-right: 2%;
+}
+
+.pRight {
+    width: 50%;
+    display: flex;
+    height: 36rem;
+    overflow-y: hidden;
+    box-sizing: border-box;
 }

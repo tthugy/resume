@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="component">
       <Head>
-        <title>최원석 포트폴리오</title>
+        <title>resume/Wonseock Choi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
         <link rel="shortcut" sizes="72x72" href="../public/favicion.ico" />
       </Head>

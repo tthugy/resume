@@ -116,7 +116,7 @@ export default function Header() {
                 <li>페이, 커머스, 거래소 등 다양한 서비스를 즐길 수 있는 App</li>
                 <li className={styles.bold}>기술 스택</li>
                 <ul className={styles.pDetailDesc}>
-                  <li>-</li>
+                  <li>WebSocket</li>
                 </ul>
                 <li className={styles.bold}>Description</li>
                 <span>-</span>
@@ -138,7 +138,8 @@ export default function Header() {
                 <li>투자 초보자(주린이)들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
                 <li className={styles.bold}>기술 스택</li>
                 <ul className={styles.pDetailDesc}>
-                  <li>-</li>
+                  <li>Php</li>
+                  <li>MySQL</li>
                 </ul>
                 <li className={styles.bold}>Description</li>
                 <span>-</span>

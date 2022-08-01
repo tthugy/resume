@@ -87,7 +87,7 @@ export default function Header() {
           <p className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects.</p>
           <div className={styles.pList}>
             <div className={styles.pLeft}>
-              <p>워블</p>
+              <p>워블<span>21.07 ~ current</span></p>
               <ul className={styles.projectDesc}>
                 <li>업무 효율을 높여주는 스케줄 관리 협업툴</li>
                 <li className={styles.bold}>기술 스택</li>

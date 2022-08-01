@@ -94,6 +94,7 @@ export default function Header() {
                 <ul className={styles.pDetailDesc}>
                   <li>Next.js</li>
                   <li>css-module</li>
+                  <li>Axios</li>
                   <li>zustand</li>
                 </ul>
                 <li className={styles.bold}>Description</li>
@@ -116,6 +117,7 @@ export default function Header() {
                 <li>페이, 커머스, 거래소 등 다양한 서비스를 즐길 수 있는 App</li>
                 <li className={styles.bold}>기술 스택</li>
                 <ul className={styles.pDetailDesc}>
+                  <li>Vanilla Html + CSS + Javascript</li>
                   <li>WebSocket</li>
                 </ul>
                 <li className={styles.bold}>Description</li>

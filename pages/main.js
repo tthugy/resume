@@ -59,7 +59,7 @@ export default function Header() {
         </div>
 
         <div className={styles.education}>
-          <p className={styles.titles}>Educations.</p>
+          <p className={styles.titles}>Educations<span>■</span></p>
           <div className={styles.eduCont}>
             <span>백석대학교, 16.03 ~ 22.02</span>
             <ul>
@@ -70,7 +70,7 @@ export default function Header() {
         </div>
 
         <div className={styles.commitBox}>
-          <p className={styles.titles}>Self Improvement.</p>
+          <p className={styles.titles}>Self Improvement<span>■</span></p>
           <div className={styles.commitImg}>
             <span className={styles.commit}>
               <Image src={Commit} layout='responsive' objectFit='contain' priority />
@@ -84,12 +84,15 @@ export default function Header() {
         </div>
 
         <div className={styles.project}>
-          <p className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects.</p>
+          <p className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects<span>■</span></p>
           <div className={styles.pList}>
             <div className={styles.pLeft}>
-              <p>워블<span>21.07 ~ current</span></p>
+              <p>워블</p>
+              <span className={styles.pTimeLine}>
+                <i class="bi bi-calendar-event"></i> &nbsp;22.07 ~ current
+              </span>
               <ul className={styles.projectDesc}>
-                <li>업무 효율을 높여주는 스케줄 관리 협업툴</li>
+                <li>📍 업무 효율을 높여주는 스케줄 관리 협업툴</li>
                 <li className={styles.bold}>기술 스택</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Next.js</li>
@@ -113,8 +116,11 @@ export default function Header() {
           <div className={styles.pList}>
             <div className={styles.pLeft}>
               <p>땡스페이</p>
+              <span className={styles.pTimeLine}>
+                <i class="bi bi-calendar-event"></i> &nbsp;21.09 ~ 22.06
+              </span>
               <ul className={styles.projectDesc}>
-                <li>페이, 커머스, 거래소 등 다양한 서비스를 즐길 수 있는 App</li>
+                <li>📍 페이, 커머스, 거래소 등 다양한 서비스를 즐길 수 있는 App</li>
                 <li className={styles.bold}>기술 스택</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Vanilla Html + CSS + Javascript</li>
@@ -136,8 +142,11 @@ export default function Header() {
           <div className={styles.pList}>
             <div className={styles.pLeft}>
               <p>삼성증권 투자스쿨</p>
+              <span className={styles.pTimeLine}>
+                <i class="bi bi-calendar-event"></i> &nbsp;21.06 ~ 21.08
+              </span>
               <ul className={styles.projectDesc}>
-                <li>투자 초보자(주린이)들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
+                <li>📍 투자 초보자(주린이)들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
                 <li className={styles.bold}>기술 스택</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Php</li>

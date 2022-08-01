@@ -136,6 +136,9 @@
 
 .titles span {
     display: inline-block!important;
+    transform: rotate3d(2, 1, 1, 45deg);
+    margin-left: 0.3rem;
+    font-size: .5rem;
     color: #3560b8;
 }
 
@@ -219,7 +222,7 @@
 }
 
 .pList p {
-    font-size: 1.35rem;
+    font-size: 1.55rem;
     font-weight: 600;
 }
 
@@ -246,12 +249,17 @@
     padding-left: .8rem;
 }
 
-.pLeft p span {
-    margin-left: 0.6rem;
+.pLeft p {
+    margin-bottom: .6rem;
+}
+
+.pTimeLine {
+    /* margin-left: 0.6rem; */
+    margin-bottom: .6rem;
     font-size: .85rem;
-    background: #46da7f;
+    background: #7476d6;
     color: #fff;
-    padding: 0.35rem 0.4rem;
+    padding: 0.4rem 0.45rem;
     border-radius: 0.5rem;
     display: inline-block;
     vertical-align: text-top;

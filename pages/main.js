@@ -127,7 +127,7 @@ export default function Header() {
                   <li>WebSocket</li>
                 </ul>
                 <li className={styles.bold}>Description</li>
-                <span>-</span>
+                <span>기존에 개발된 기능 유지보수 및 신규 거래소 개발</span>
               </ul>
             </div>
             <div className={styles.pRight}>

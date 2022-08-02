@@ -153,7 +153,7 @@ export default function Header() {
                   <li>MySQL</li>
                 </ul>
                 <li className={styles.bold}>Description</li>
-                <span>-</span>
+                <span>PDO 기반 Back-end 기능 개선 및 Mysql database 설계</span>
               </ul>
             </div>
             <div className={styles.pRight}>

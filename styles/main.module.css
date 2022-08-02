@@ -8,6 +8,10 @@
     margin-top: 2rem;
 }
 
+@media (max-width: 1199px){ .intro {
+    width: 100%;
+}} 
+
 .intro p {
     font-weight: 500;
     font-size: 1.3rem;
@@ -56,6 +60,10 @@
     padding: 1.4rem .6rem;
 }
 
+@media (max-width: 1199px){ .company li {
+    flex-direction: column;
+}} 
+
 .company li div {
     display: inline-block;
     font-weight: 500;
@@ -74,6 +82,10 @@
 .company li span {
     flex-basis: 80%;
 }
+
+@media (max-width: 1199px){ .company li span {
+    margin-top: 1.2rem;
+}} 
 
 .support {
     display: none;
@@ -134,6 +146,10 @@
     position: relative;
 }
 
+@media (max-width: 1199px){ .titles {
+    font-size: 1.6rem;
+}} 
+
 .titles span {
     display: inline-block!important;
     transform: rotate3d(2, 1, 1, 45deg);
@@ -193,8 +209,13 @@
     width: 50%;
     margin: 0 auto;
     margin-bottom: 4rem!important;
-    
 }
+
+@media (max-width: 1199px){ .commitImg {
+    width: 94%;
+    margin: 0 auto;
+    margin-bottom: 2.6rem!important;
+}} 
 
 .commitBox .commitDesc {
     display: inline-block;
@@ -217,8 +238,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 1199px){ .pLeft {
+    display: block;
+}} 
+
 .pList ~ .pList {
-    border-top: .5px solid #3560b8;
+    border-top: .5px solid #c8c8c8;
 }
 
 .pList p {
@@ -248,6 +273,11 @@
     margin-right: 2%;
     padding-left: .8rem;
 }
+
+@media (max-width: 1199px){ .pLeft {
+    width: 100%;
+    padding-left: 0;
+}} 
 
 .pLeft p {
     margin-bottom: .6rem;

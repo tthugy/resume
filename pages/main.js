@@ -101,7 +101,7 @@ export default function Header() {
                   <li>zustand</li>
                 </ul>
                 <li className={styles.bold}>Description</li>
-                <span>-</span>
+                <span>초기 설계단계부터 참여하여 현재까지 진행중인 프로젝트</span>
               </ul>
             </div>
             <div className={styles.pRight}>

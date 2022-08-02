@@ -18,9 +18,25 @@
     margin-bottom: 1.5rem;
 }
 
+.intro div {
+    word-break: keep-all;
+    line-height: 1.5;
+}
+
+@media (max-width: 1199px){ .intro div {
+    margin-top: 2.2rem;
+}} 
+
 .linkCollect {
     margin-left: 1.1rem;
 }
+
+@media (max-width: 1199px){ .linkCollect {
+    position: fixed;
+    top: 1.35rem;
+    right: 1rem;
+    z-index: 6;
+}}
 
 .intro p span i {
     cursor: pointer;
@@ -62,6 +78,7 @@
 
 @media (max-width: 1199px){ .company li {
     flex-direction: column;
+    padding: 1.4rem 0;
 }} 
 
 .company li div {
@@ -104,6 +121,11 @@
     z-index: 1;
 }
 
+@media (max-width: 1199px){ .support {
+    top: 2rem;
+    left: -1rem;
+}} 
+
 .support:before {
     position: absolute;
     width: 1.7rem;
@@ -115,6 +137,11 @@
     transform: translate(-50%);
     content: '';
 }
+
+@media (max-width: 1199px){ .support:before {
+    top: -2.1rem;
+    left: 79.8%;
+}} 
 
 .block {
     display: block!important;
@@ -148,6 +175,7 @@
 
 @media (max-width: 1199px){ .titles {
     font-size: 1.6rem;
+    padding: .7rem 0;
 }} 
 
 .titles span {
@@ -200,6 +228,10 @@
     display: block;
 }
 
+@media (max-width: 1199px){ .eduCont {
+    padding-left: .3rem;
+}} 
+
 .commitBox {
     position: relative;
     padding: 1.45rem 0;
@@ -213,6 +245,7 @@
 
 @media (max-width: 1199px){ .commitImg {
     width: 94%;
+    max-width: 700px;
     margin: 0 auto;
     margin-bottom: 2.6rem!important;
 }} 
@@ -220,7 +253,13 @@
 .commitBox .commitDesc {
     display: inline-block;
     padding-left: .8rem;
+    word-break: keep-all;
+    line-height: 1.6;
 }
+
+@media (max-width: 1199px){ .commitBox .commitDesc {
+    padding-left: 0;
+}} 
 
 .commitBox .commitDesc a {
     color: #3560b8;
@@ -238,7 +277,7 @@
     justify-content: space-between;
 }
 
-@media (max-width: 1199px){ .pLeft {
+@media (max-width: 1199px){ .pList {
     display: block;
 }} 
 
@@ -250,6 +289,11 @@
     font-size: 1.55rem;
     font-weight: 600;
 }
+
+@media (max-width: 1199px){ .pList p {
+    font-size: 1.3rem;
+    margin-bottom: .8rem!important;
+}} 
 
 .pSubment {
     font-size: .95rem;
@@ -303,6 +347,14 @@
     box-sizing: border-box;
     box-shadow: rgb(17 17 26 / 5%) 0px 4px 16px, rgb(17 17 26 / 10%) 0px 8px 6px, rgb(17 17 26 / 10%) 0px 16px 56px;
 }
+
+@media (max-width: 1199px){ .pRight {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 2.4rem;
+}} 
 
 .bold {
     font-weight: 600;

@@ -20,3 +20,7 @@
     background-clip: text !important;
     -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 1199px){ .title p span {
+    display: block;
+}} 

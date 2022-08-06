@@ -32,7 +32,7 @@
 }
 
 @media (max-width: 1199px){ .linkCollect {
-    position: fixed;
+    position: absolute;
     top: 1.35rem;
     right: 1rem;
     z-index: 6;

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link'
 import styles from '../styles/main.module.css'
 import Commit from '../public/myCommit.png'
@@ -15,6 +15,7 @@ import thx2 from '../public/thx2.png'
 export default function Header() {
 
   const [link, setLink] = useState(false);
+  const [pageY, setPageY] = useState(0);
 
   const linkClicked = () => {
     setLink(true);
@@ -22,6 +23,21 @@ export default function Header() {
     setTimeout(()=>{
       setLink(false)
     }, 3000);
+  }
+
+  const handleScroll = () => {
+    const { pageYOffset } = window;
+    const diffY = pageYOffset - pageY;
+    const hide = pageYOffset !== 0 && diffY >= 0;
+
+    console.log(diffY);
+    console.log(hide);
+  }
+
+  if (typeof window !== "undefined"){
+    setInterval(()=>{
+      handleScroll();
+    },1000)
   }
 
   return (
@@ -89,7 +105,7 @@ export default function Header() {
             <div className={styles.pLeft}>
               <p>워블</p>
               <span className={styles.pTimeLine}>
-                <i class="bi bi-calendar-event"></i> &nbsp;22.07 ~ current
+                <i className="bi bi-calendar-event"></i> &nbsp;22.07 ~ current
               </span>
               <ul className={styles.projectDesc}>
                 <li>📍 업무 효율을 높여주는 스케줄 관리 협업툴</li>
@@ -117,7 +133,7 @@ export default function Header() {
             <div className={styles.pLeft}>
               <p>땡스페이</p>
               <span className={styles.pTimeLine}>
-                <i class="bi bi-calendar-event"></i> &nbsp;21.09 ~ 22.06
+                <i className="bi bi-calendar-event"></i> &nbsp;21.09 ~ 22.06
               </span>
               <ul className={styles.projectDesc}>
                 <li>📍 페이, 커머스, 거래소 등 다양한 서비스를 즐길 수 있는 App</li>
@@ -143,7 +159,7 @@ export default function Header() {
             <div className={styles.pLeft}>
               <p>삼성증권 투자스쿨</p>
               <span className={styles.pTimeLine}>
-                <i class="bi bi-calendar-event"></i> &nbsp;21.06 ~ 21.08
+                <i className="bi bi-calendar-event"></i> &nbsp;21.06 ~ 21.08
               </span>
               <ul className={styles.projectDesc}>
                 <li>📍 투자 초보자(주린이)들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>

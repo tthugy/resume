@@ -32,11 +32,17 @@
 }
 
 @media (max-width: 1199px){ .linkCollect {
-    position: absolute;
+    position: fixed;
     top: 1.35rem;
     right: 1rem;
     z-index: 6;
+    transition: all .5s ease;
+    opacity: 1;
 }}
+
+.hide {
+    opacity: 0;
+}
 
 .intro p span i {
     cursor: pointer;

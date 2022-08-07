@@ -15,7 +15,7 @@ import thx2 from '../public/thx2.png'
 export default function Header() {
 
   const [link, setLink] = useState(false);
-  const [pageY, setPageY] = useState(0);
+  const [pageStatus, setPageStatus] = useState("");
 
   const linkClicked = () => {
     setLink(true);
@@ -25,27 +25,29 @@ export default function Header() {
     }, 3000);
   }
 
-  const handleScroll = () => {
-    const { pageYOffset } = window;
-    const diffY = pageYOffset - pageY;
-    const hide = pageYOffset !== 0 && diffY >= 0;
+let prevScrollTop = 0;
+if (typeof window !== "undefined"){
+  setInterval(()=>{
+    document.addEventListener("scroll", function(){ 
+      let nextScrollTop = window.pageYOffset || 0; 
+        if (nextScrollTop > prevScrollTop){
+            setPageStatus("down");
+        } else if (nextScrollTop < prevScrollTop){
+            setPageStatus("up");
+        }
+        prevScrollTop = nextScrollTop;
+    })
+  }, 800)
+}
 
-    console.log(diffY);
-    console.log(hide);
-  }
-
-  if (typeof window !== "undefined"){
-    setInterval(()=>{
-      handleScroll();
-    },1000)
-  }
+console.log(pageStatus);
 
   return (
     <main className={styles.main}>
         <div className={styles.intro}>
             <p>
               안녕하세요. 개발자 최원석입니다.
-              <span className={styles.linkCollect}>
+              <span className={`${pageStatus === "down" && styles.hide} ${styles.linkCollect}`}>
                 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
                 </a>

@@ -378,6 +378,10 @@
     padding-top: .5rem;
 }
 
+.descUl {
+    margin-top: 1rem;
+}
+
 .pDetailDesc {
     list-style: disc;
     padding-left: 1rem;

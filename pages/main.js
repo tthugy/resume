@@ -25,20 +25,20 @@ export default function Header() {
     }, 3000);
   }
 
-let prevScrollTop = 0;
-if (typeof window !== "undefined"){
-  setInterval(()=>{
-    document.addEventListener("scroll", function(){ 
-      let nextScrollTop = window.pageYOffset || 0; 
-        if (nextScrollTop > prevScrollTop){
-            setPageStatus("down");
-        } else if (nextScrollTop < prevScrollTop){
-            setPageStatus("up");
-        }
-        prevScrollTop = nextScrollTop;
-    })
-  }, 800)
-}
+// let prevScrollTop = 0;
+// if (typeof window !== "undefined"){
+//   setInterval(()=>{
+//     document.addEventListener("scroll", function(){ 
+//       let nextScrollTop = window.pageYOffset || 0; 
+//         if (nextScrollTop > prevScrollTop){
+//             setPageStatus("down");
+//         } else if (nextScrollTop < prevScrollTop){
+//             setPageStatus("up");
+//         }
+//         prevScrollTop = nextScrollTop;
+//     })
+//   })
+// }
 
 console.log(pageStatus);
 
@@ -47,7 +47,7 @@ console.log(pageStatus);
         <div className={styles.intro}>
             <p>
               안녕하세요. 개발자 최원석입니다.
-              <span className={`${pageStatus === "down" && styles.hide} ${styles.linkCollect}`}>
+              <span className={`${styles.linkCollect}`}>
                 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
                 </a>

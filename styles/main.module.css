@@ -1,0 +1,410 @@
+.main {
+    display: block;
+    padding-bottom: 3rem;
+}
+
+.intro {
+    width: 60%;
+    margin-top: 2rem;
+}
+
+@media (max-width: 1199px){ .intro {
+    width: 100%;
+}} 
+
+.intro p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.intro div {
+    word-break: keep-all;
+    line-height: 1.5;
+}
+
+@media (max-width: 1199px){ .intro div {
+    margin-top: 2.2rem;
+}} 
+
+.linkCollect {
+    margin-left: 1.1rem;
+}
+
+@media (max-width: 1199px){ .linkCollect {
+    position: absolute;
+    top: 1.35rem;
+    right: 1rem;
+    z-index: 6;
+    transition: all .5s ease;
+    opacity: 1;
+}}
+
+.hide {
+    opacity: 0;
+}
+
+.intro p span i {
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: all .5 ease;
+}
+
+.lickClicked {
+    color: #fff!important;
+}
+
+.intro p span a ~ a {
+    margin-left: .55rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.intro p span i:hover {
+    color: #999;
+}
+
+.intro div {
+    color: rgb(51, 51, 51);
+}
+
+.company {
+    margin-top: 3rem;
+    border-top: 1.5px solid #d4e2f2;
+    border-bottom: 1.5px solid #d4e2f2;
+    width: 100%;
+}
+
+.company li {
+    display: flex;
+    flex-direction: row;
+    padding: 1.4rem .6rem;
+}
+
+@media (max-width: 1199px){ .company li {
+    flex-direction: column;
+    padding: 1.4rem 0;
+}} 
+
+.company li div {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.3rem;
+    flex-basis: 20%;
+}
+
+.company li div span {
+    display: block;
+    font-size: .9rem;
+    color: rgb(124, 124, 124);
+    margin-left: 0;
+    margin-top: .3rem;
+}
+
+.company li span {
+    flex-basis: 80%;
+}
+
+@media (max-width: 1199px){ .company li span {
+    margin-top: 1.2rem;
+}} 
+
+.support {
+    display: none;
+    position: absolute;
+    width: 5.5rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    background: #6293d4;
+    top: -2.7rem;
+    left: 50%;
+    transform: translate(-50%);
+    font-style: normal;
+    font-size: .7rem;
+    color: #fff;
+    z-index: 1;
+}
+
+@media (max-width: 1199px){ .support {
+    top: 2rem;
+    left: -1rem;
+}} 
+
+.support:before {
+    position: absolute;
+    width: 1.7rem;
+    height: 1.7rem;
+    background: #6293d4;
+    border-radius: 50%;
+    top: 2.6rem;
+    left: 50%;
+    transform: translate(-50%);
+    content: '';
+}
+
+@media (max-width: 1199px){ .support:before {
+    top: -2.1rem;
+    left: 79.8%;
+}} 
+
+.block {
+    display: block!important;
+}
+
+.comPeriod {
+    background: #3560b8;
+    display: inline-block!important;
+    padding: .35rem .45rem;
+    color: #fff!important;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    margin-top: .6rem!important;
+    font-size: .8rem!important;
+}
+
+.comCont {
+    font-size: .95rem;
+}
+
+.titles {
+    font-size: 2.2rem;
+    font-weight: 700;
+    /* background: linear-gradient(7deg, #78e7ff -18%, #3560b8 113%); */
+    color: #000;
+    padding: .7rem 0.8rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    position: relative;
+}
+
+@media (max-width: 1199px){ .titles {
+    font-size: 1.6rem;
+    padding: .7rem 0;
+}} 
+
+.titles span {
+    display: inline-block!important;
+    transform: rotate3d(2, 1, 1, 45deg);
+    margin-left: 0.3rem;
+    font-size: .5rem;
+    color: #3560b8;
+}
+
+/* .titles:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.25rem;
+    right: 0.25rem;
+    bottom: 0.25rem;
+    border: 1px solid #eefff3;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    opacity: .55;
+} */
+
+.project {
+    padding: 1.45rem 0;
+}
+
+.education {
+    padding: 1.45rem 0;
+}
+
+.education span {
+    display: block;
+}
+
+.education ul {
+    list-style-type: disc;
+    padding-left: 1.4rem;
+    margin-top: .4rem;
+}
+
+.education ul li {
+    padding: .25rem 0;
+}
+
+.eduCont {
+    margin-top: 2.4rem;
+    padding-left: .8rem;
+    display: block;
+}
+
+@media (max-width: 1199px){ .eduCont {
+    padding-left: .3rem;
+}} 
+
+.commitBox {
+    position: relative;
+    padding: 1.45rem 0;
+}
+
+.commitImg {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 4rem!important;
+}
+
+@media (max-width: 1199px){ .commitImg {
+    width: 94%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 2.6rem!important;
+}} 
+
+.commitBox .commitDesc {
+    display: inline-block;
+    padding-left: .8rem;
+    word-break: keep-all;
+    line-height: 1.6;
+}
+
+@media (max-width: 1199px){ .commitBox .commitDesc {
+    padding-left: 0;
+}} 
+
+.commitBox .commitDesc a {
+    color: #3560b8;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.ctitles {
+    margin-bottom: 0;
+}
+
+.pList {
+    padding: 2.45rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1199px){ .pList {
+    display: block;
+}} 
+
+.pList ~ .pList {
+    border-top: .5px solid #c8c8c8;
+}
+
+.pList p {
+    font-size: 1.55rem;
+    font-weight: 600;
+}
+
+@media (max-width: 1199px){ .pList p {
+    font-size: 1.3rem;
+    margin-bottom: .8rem!important;
+}} 
+
+.pSubment {
+    font-size: .95rem;
+    margin-top: 2rem;
+    display: block;
+}
+
+.pImage {
+    width: 100%;
+    display: block;
+    overflow: scroll;
+}
+
+.pImage:last-child {
+    border-left: 1px solid #eee;
+}
+
+.pLeft {
+    display: block;
+    width: 48%;
+    margin-right: 2%;
+    padding-left: .8rem;
+}
+
+@media (max-width: 1199px){ .pLeft {
+    width: 100%;
+    padding-left: 0;
+}} 
+
+.pLeft p {
+    margin-bottom: .6rem;
+}
+
+.pTimeLine {
+    /* margin-left: 0.6rem; */
+    margin-bottom: .6rem;
+    font-size: .85rem;
+    background: #7476d6;
+    color: #fff;
+    padding: 0.4rem 0.45rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.pRight {
+    width: 50%;
+    display: flex;
+    height: 36rem;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    box-shadow: rgb(17 17 26 / 5%) 0px 4px 16px, rgb(17 17 26 / 10%) 0px 8px 6px, rgb(17 17 26 / 10%) 0px 16px 56px;
+}
+
+@media (max-width: 1199px){ .pRight {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 2.4rem;
+}} 
+
+.bold {
+    font-weight: 600;
+}
+
+.projectDesc {
+    font-size: 1rem;
+}
+
+.projectDesc li {
+    padding: 1rem 0;
+}
+
+.projectDesc li:first-child {
+    padding-top: .5rem;
+}
+
+.descUl {
+    margin-top: 1rem;
+}
+
+.pDetailDesc {
+    list-style: disc;
+    padding-left: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+.pDetailDesc li ~ li {
+    padding-top: 0.6rem!important;
+}
+
+.pDetailDesc li:first-child {
+    padding-top: 0;
+}
+
+.pDetailDesc li {
+    padding: 0;
+}
+
+.end {
+    color: rgb(77, 77, 77);
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: .95rem;
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+.tIcon {
+    display: block;
+    margin: 1.4rem 0;
+    font-size: 2.6rem;
+}
+
+.title {
+    display: inline-block;
+    margin: .3rem 0;
+    position: relative;
+}
+
+.title p {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(7deg, #78e7ff -18%, #3560b8 113%);
+    color: #3560b8;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1199px){ .title p {
+    background: linear-gradient(136deg, #78e7ff -18%, #3560b8 113%);
+}} 
+
+@media (max-width: 1199px){ .title p span {
+    display: block;
+}} 

@@ -114,12 +114,17 @@ console.log(pageStatus);
                 <li className={styles.bold}>기술 스택</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Next.js</li>
-                  <li>css-module</li>
+                  <li>CSS-module</li>
                   <li>Axios</li>
                   <li>zustand</li>
                 </ul>
                 <li className={styles.bold}>Description</li>
                 <span>초기 설계단계부터 참여하여 현재까지 진행중인 프로젝트</span>
+                <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
+                  <li>모바일 전용 웹페이지로 Next.js로 개발</li>
+                  <li>회사 내부 디자인시스템을 바탕으로 컴포넌트 개발 구축</li>
+                  <li>github로 이슈관리, jenkins 파이프라인을 통한 지속적 통합 및 배포</li>
+                </ul>
               </ul>
             </div>
             <div className={styles.pRight}>

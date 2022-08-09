@@ -1,5 +1,4 @@
 {
-  "homepage": "http://tthugy.github.io/resume",
   "name": "resume",
   "version": "0.1.0",
   "private": true,
@@ -7,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "bootstrap-icons": "^1.9.1",

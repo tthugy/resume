@@ -91,7 +91,7 @@ console.log(pageStatus);
           <p className={styles.titles}>Self Improvement<span>■</span></p>
           <div className={styles.commitImg}>
             <span className={styles.commit}>
-              <Image src={Commit} layout='responsive' objectFit='contain' priority />
+              <Image src={Commit} alt="Commit Graph" layout='responsive' objectFit='contain' priority />
             </span>
           </div>
           <span className={styles.commitDesc}>
@@ -131,10 +131,10 @@ console.log(pageStatus);
             </div>
             <div className={styles.pRight}>
               <span className={styles.pImage}>
-                <Image src={wobble1} layout='responsive' objectFit='contain' priority />
+                <Image src={wobble1} alt="Wobble Login" layout='responsive' objectFit='contain' priority />
               </span>
               <span className={styles.pImage}>
-                <Image src={wobble2} layout='responsive' objectFit='contain' priority />
+                <Image src={wobble2} alt="Wobble Calendar" layout='responsive' objectFit='contain' priority />
               </span>
             </div>
           </div>
@@ -163,10 +163,10 @@ console.log(pageStatus);
             </div>
             <div className={styles.pRight}>
               <span className={styles.pImage}>
-                <Image src={thx1} layout='responsive' objectFit='contain' priority />
+                <Image src={thx1} alt="THX Stock-market" layout='responsive' objectFit='contain' priority />
               </span>
               <span className={styles.pImage}>
-                <Image src={thx2} layout='responsive' objectFit='contain' priority />
+                <Image src={thx2} alt="THX main" layout='responsive' objectFit='contain' priority />
               </span>
             </div>
           </div>
@@ -197,10 +197,10 @@ console.log(pageStatus);
             </div>
             <div className={styles.pRight}>
               <span className={styles.pImage}>
-                <Image src={samsung1} layout='responsive' objectFit='contain' priority />
+                <Image src={samsung1} alt="SamsungPop Main" layout='responsive' objectFit='contain' priority />
               </span>
               <span className={styles.pImage}>
-                <Image src={samsung2} layout='responsive' objectFit='contain' priority />
+                <Image src={samsung2} alt="SamsungPop Class" layout='responsive' objectFit='contain' priority />
               </span>
             </div>
           </div>

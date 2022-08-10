@@ -20,9 +20,9 @@ export default function Header() {
   const linkClicked = () => {
     setLink(true);
     navigator.clipboard.writeText('cwstwin1@gmail.com');
-    // setTimeout(()=>{
-    //   setLink(false)
-    // }, 3000);
+    setTimeout(()=>{
+      setLink(false)
+    }, 3000);
   }
 
 // let prevScrollTop = 0;
@@ -40,7 +40,7 @@ export default function Header() {
 //   })
 // }
 
-console.log(pageStatus);
+const code = "</>";
 
   return (
     <main className={styles.main}>
@@ -56,11 +56,12 @@ console.log(pageStatus);
                 </a>
                 <a onClick={linkClicked}>
                   <span className={`${link && styles.block} ${styles.support}`}>메일 주소가<br/>복사되었습니다.</span>
-                  <i className={`${link && styles.lickClicked} bi bi-at`}></i>
+                  <i className={`${link && styles.linkClicked} bi bi-at`}></i>
                 </a>
               </span>
             </p>
-            <div>2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 만드는 것이 역량이라고 생각합니다. 사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용할 맛이 나도록 만드는 것이 제가 바라는 목표입니다.</div>
+            {/* <div className={styles.code}>{code}</div> */}
+            <div className={styles.codeTxt}>2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 만드는 것이 역량이라고 생각합니다. 사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용할 맛이 나도록 만드는 것이 제가 바라는 목표입니다.</div>
         </div>
 
         <div className={styles.company}>
@@ -95,7 +96,7 @@ console.log(pageStatus);
             </span>
           </div>
           <span className={styles.commitDesc}>
-            저는 대학교를 졸업한 이래로, 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
+            저는 개발을 시작한 이래로, 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
             <br/><br/>
             위 이미지는 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정</a> 커밋 내역을 그래프화한 것으로써, 이를 가장 확연하게 증명할 수 있을 것 같습니다.
           </span>

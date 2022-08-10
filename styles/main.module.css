@@ -20,12 +20,8 @@
 
 .intro div {
     word-break: keep-all;
-    line-height: 1.5;
+    line-height: 1.6;
 }
-
-@media (max-width: 1199px){ .intro div {
-    margin-top: 2.2rem;
-}}
 
 .fe {
     font-weight: 600;
@@ -36,10 +32,12 @@
 
 .linkCollect {
     margin-left: 1.1rem;
+    font-size: 1.15rem;
 }
 
 @media (max-width: 1199px){ .linkCollect {
     position: absolute;
+    font-size: 1.3rem!important;
     top: 1.35rem;
     right: 1rem;
     z-index: 6;
@@ -51,6 +49,21 @@
     opacity: 0;
 }
 
+.code {
+    margin-top: 3.2rem!important;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #7476d6!important;
+}
+
+.codeTxt {
+    margin-top: 2.7rem!important;
+}
+
+@media (max-width: 1199px){ .codeTxt {
+    font-size: .9rem;
+}}
+
 .intro p span i {
     cursor: pointer;
     position: relative;
@@ -58,8 +71,13 @@
     transition: all .5 ease;
 }
 
-.lickClicked {
+.linkClicked {
     color: #fff!important;
+    background: #6293d4;
+    border-radius: 50%;
+    font-size: 1.15rem;
+    padding: .05rem .15rem;
+    box-sizing: border-box;
 }
 
 .intro p span a ~ a {
@@ -139,7 +157,7 @@
     left: -1rem;
 }} 
 
-.support:before {
+/* .support:before {
     position: absolute;
     width: 1.7rem;
     height: 1.7rem;
@@ -154,7 +172,7 @@
 @media (max-width: 1199px){ .support:before {
     top: -2.2rem;
     left: 78%;
-}} 
+}}  */
 
 .block {
     display: block!important;
@@ -291,6 +309,7 @@
 .commitBox .commitDesc {
     display: inline-block;
     padding-left: .8rem;
+    font-size: .9rem;
     word-break: keep-all;
     line-height: 1.6;
 }
@@ -381,7 +400,7 @@
 .pRight {
     width: 50%;
     display: flex;
-    height: 36rem;
+    height: 37.5rem;
     overflow-y: hidden;
     box-sizing: border-box;
     box-shadow: rgb(17 17 26 / 5%) 0px 4px 16px, rgb(17 17 26 / 10%) 0px 8px 6px, rgb(17 17 26 / 10%) 0px 16px 56px;
@@ -397,6 +416,10 @@
 
 .bold {
     font-weight: 600;
+    font-size: 1.05rem;
+    margin-top: .95rem;
+    margin-bottom: .4rem;
+    padding-top: 1.5rem!important;
 }
 
 .projectDesc {
@@ -408,7 +431,8 @@
 }
 
 .projectDesc li:first-child {
-    padding-top: .5rem;
+    padding-top: 1rem;
+    padding-bottom: .05rem;
 }
 
 .descUl {

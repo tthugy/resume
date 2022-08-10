@@ -20,9 +20,9 @@ export default function Header() {
   const linkClicked = () => {
     setLink(true);
     navigator.clipboard.writeText('cwstwin1@gmail.com');
-    setTimeout(()=>{
-      setLink(false)
-    }, 3000);
+    // setTimeout(()=>{
+    //   setLink(false)
+    // }, 3000);
   }
 
 // let prevScrollTop = 0;
@@ -60,7 +60,7 @@ console.log(pageStatus);
                 </a>
               </span>
             </p>
-            <div>2년차 프론트엔드 개발자입니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 만드는 것이 역량이라고 생각합니다. 사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용할 맛이 나도록 만드는 것이 제가 바라는 목표입니다.</div>
+            <div>2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 만드는 것이 역량이라고 생각합니다. 사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용할 맛이 나도록 만드는 것이 제가 바라는 목표입니다.</div>
         </div>
 
         <div className={styles.company}>
@@ -77,7 +77,7 @@ console.log(pageStatus);
         </div>
 
         <div className={styles.education}>
-          <p className={styles.titles}>Educations<span>■</span></p>
+          <p className={styles.titles}>Educations<span>a</span></p>
           <div className={styles.eduCont}>
             <span>백석대학교, 16.03 ~ 22.02</span>
             <ul>
@@ -88,7 +88,7 @@ console.log(pageStatus);
         </div>
 
         <div className={styles.commitBox}>
-          <p className={styles.titles}>Self Improvement<span>■</span></p>
+          <p className={styles.titles}>Self Improvement<span>b</span></p>
           <div className={styles.commitImg}>
             <span className={styles.commit}>
               <Image alt="Commit Graph" src={Commit} layout='responsive' objectFit='contain' priority />
@@ -102,7 +102,7 @@ console.log(pageStatus);
         </div>
 
         <div className={styles.project}>
-          <p className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects<span>■</span></p>
+          <p className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects<span>c</span></p>
           <div className={styles.pList}>
             <div className={styles.pLeft}>
               <p>워블</p>

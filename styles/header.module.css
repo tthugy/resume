@@ -13,6 +13,8 @@
 .title p {
     margin: 0;
     position: relative;
+    font-size: 1.95rem;
+    letter-spacing: .03rem;
     z-index: 1;
     background: linear-gradient(7deg, #78e7ff -18%, #3560b8 113%);
     color: #3560b8;

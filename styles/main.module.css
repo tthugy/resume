@@ -14,7 +14,7 @@
 
 .intro p {
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.08rem;
     margin-bottom: 1.5rem;
 }
 
@@ -25,7 +25,14 @@
 
 @media (max-width: 1199px){ .intro div {
     margin-top: 2.2rem;
-}} 
+}}
+
+.fe {
+    font-weight: 600;
+    color: #3560b8;
+    display: inline-block;
+    /* padding: 0 .05rem; */
+}
 
 .linkCollect {
     margin-left: 1.1rem;
@@ -145,8 +152,8 @@
 }
 
 @media (max-width: 1199px){ .support:before {
-    top: -2.1rem;
-    left: 79.8%;
+    top: -2.2rem;
+    left: 78%;
 }} 
 
 .block {
@@ -182,15 +189,40 @@
 @media (max-width: 1199px){ .titles {
     font-size: 1.6rem;
     padding: .7rem 0;
+    margin-bottom: 1.5rem;
 }} 
 
 .titles span {
     display: inline-block!important;
-    transform: rotate3d(2, 1, 1, 45deg);
-    margin-left: 0.3rem;
-    font-size: .5rem;
+    transform: rotate3d(2, 1, 1, 359deg);
+    margin-left: 0.55rem;
+    vertical-align: middle;
+    font-size: .55rem;
     color: #3560b8;
+    -webkit-animation: turn360 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: turn360 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    
 }
+
+ @-webkit-keyframes turn360 {
+    0% {
+        transform: rotate3d(2, 1, 1, 0deg);
+    }
+    100% {
+        transform: rotate3d(2, 1, 1, 359deg);
+    }
+  }
+  @keyframes turn360 {
+    0% {
+        transform: rotate3d(2, 1, 1, 0deg);
+    }
+    100% {
+        transform: rotate3d(2, 1, 1, 359deg);
+    }
+  }
+  
 
 /* .titles:after {
     content: '';
@@ -229,7 +261,7 @@
 }
 
 .eduCont {
-    margin-top: 2.4rem;
+    /* margin-top: 2.4rem; */
     padding-left: .8rem;
     display: block;
 }
@@ -285,6 +317,7 @@
 
 @media (max-width: 1199px){ .pList {
     display: block;
+    padding: .8rem 0 1rem;
 }} 
 
 .pList ~ .pList {

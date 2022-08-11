@@ -71,19 +71,10 @@
     transition: all .5 ease;
 }
 
-.linkClicked {
-    color: #fff!important;
-    background: #6293d4;
-    border-radius: 50%;
-    font-size: 1.15rem;
-    padding: .05rem .15rem;
-    box-sizing: border-box;
-}
-
 .intro p span a ~ a {
     margin-left: .55rem;
     cursor: pointer;
-    position: relative;
+    /* position: relative; */
 }
 
 .intro p span i:hover {
@@ -137,42 +128,29 @@
 
 .support {
     display: none;
-    position: absolute;
-    width: 5.5rem;
+    position: fixed;
+    width: 94%;
+    max-width: 20rem;
+    margin: 0 auto;
     text-align: center;
-    border-radius: 0.4rem;
-    padding: 0.3rem;
+    border-radius: 1rem;
+    padding: .8rem 0;
     background: #6293d4;
-    top: -2.7rem;
     left: 50%;
+    bottom: 1rem;
     transform: translate(-50%);
     font-style: normal;
-    font-size: .7rem;
+    font-size: .8rem;
     color: #fff;
     z-index: 1;
+    transition: all .5s ease;
+    box-shadow: rgb(17 17 26 / 25%) 0px 6px 10px, rgb(17 17 26 / 10%) 0px 8px 6px, rgb(17 17 26 / 10%) 0px 16px 56px;
 }
 
 @media (max-width: 1199px){ .support {
-    top: 2rem;
-    left: -1rem;
+    /* top: 2rem;
+    left: -1rem; */
 }} 
-
-/* .support:before {
-    position: absolute;
-    width: 1.7rem;
-    height: 1.7rem;
-    background: #6293d4;
-    border-radius: 50%;
-    top: 2.6rem;
-    left: 50%;
-    transform: translate(-50%);
-    content: '';
-}
-
-@media (max-width: 1199px){ .support:before {
-    top: -2.2rem;
-    left: 78%;
-}}  */
 
 .block {
     display: block!important;

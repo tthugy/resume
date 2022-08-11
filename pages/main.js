@@ -55,11 +55,11 @@ const code = "</>";
                   <i className="bi bi-linkedin"></i>
                 </a>
                 <a onClick={linkClicked}>
-                  <span className={`${link && styles.block} ${styles.support}`}>메일 주소가<br/>복사되었습니다.</span>
-                  <i className={`${link && styles.linkClicked} bi bi-at`}></i>
+                  <i className={`bi bi-at`}></i>
                 </a>
               </span>
             </p>
+            <span className={`${link && styles.block} ${styles.support}`}>메일 주소가 복사되었습니다.</span>
             {/* <div className={styles.code}>{code}</div> */}
             <div className={styles.codeTxt}>2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 만드는 것이 역량이라고 생각합니다. 사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용할 맛이 나도록 만드는 것이 제가 바라는 목표입니다.</div>
         </div>

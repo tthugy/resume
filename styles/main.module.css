@@ -14,9 +14,14 @@
 
 .intro p {
     font-weight: 500;
-    font-size: 1.08rem;
+    font-size: 1.32rem;
     margin-bottom: 1.5rem;
 }
+
+@media (max-width: 1199px){ .intro p {
+    width: 100%;
+    font-size: 1.08rem;
+}} 
 
 .intro div {
     word-break: keep-all;
@@ -208,16 +213,20 @@
 .titles span {
     display: inline-block!important;
     transform: rotate3d(2, 1, 1, 359deg);
-    margin-left: 0.55rem;
+    margin-left: 0.85rem;
     vertical-align: middle;
-    font-size: .55rem;
+    font-size: .9rem;
     color: #3560b8;
     -webkit-animation: turn360 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: turn360 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    
 }
+
+@media (max-width: 1199px){ .titles span {
+    font-size: .75rem;
+    margin-left: 0.65rem;
+}} 
 
  @-webkit-keyframes turn360 {
     0% {
@@ -304,7 +313,6 @@
 .commitBox .commitDesc {
     display: inline-block;
     padding-left: .8rem;
-    font-size: .9rem;
     word-break: keep-all;
     line-height: 1.6;
 }
@@ -377,8 +385,12 @@
 }} 
 
 .pLeft p {
-    margin-bottom: .6rem;
+    margin-bottom: 1rem;
 }
+
+@media (max-width: 1199px){ .pLeft p {
+    margin-bottom: .6rem;
+}} 
 
 .pTimeLine {
     /* margin-left: 0.6rem; */

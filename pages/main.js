@@ -11,13 +11,19 @@ import wobble1 from '../public/wobble1.png'
 import wobble2 from '../public/wobble2.png'
 import thx1 from '../public/thx1.png'
 import thx2 from '../public/thx2.png'
+import { BrowserView, MobileView, isBrowser, isMobile, isAndroid, isIOS } from "react-device-detect"
 
 export default function Header() {
 
   const [link, setLink] = useState(false);
   const [pageStatus, setPageStatus] = useState("");
-
+  
   const linkClicked = () => {
+    navigator.clipboard.writeText('cwstwin1@gmail.com');
+    alert("메일 주소가 복사되었습니다.")
+  }
+
+  const linkClickedMobile = () => {
     setLink(true);
     navigator.clipboard.writeText('cwstwin1@gmail.com');
     setTimeout(()=>{
@@ -47,7 +53,22 @@ const code = "</>";
         <div className={styles.intro}>
             <p>
               안녕하세요. 개발자 최원석입니다.
+              <MobileView>
               <span className={`${styles.linkCollect}`}>
+                <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
+                  <i className="bi bi-github"></i>
+                </a>
+                <a target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
+                  <i className="bi bi-linkedin"></i>
+                </a>
+                <a onClick={linkClickedMobile}>
+                  <i className={`bi bi-at`}></i>
+                </a>
+              </span>
+            </MobileView>
+            </p>
+            <BrowserView>
+              <span className={`${styles.linkCollect} ${styles.browserMargin}`}>
                 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
                 </a>
@@ -58,8 +79,8 @@ const code = "</>";
                   <i className={`bi bi-at`}></i>
                 </a>
               </span>
-            </p>
-            <span className={`${link && styles.block} ${styles.support}`}>메일 주소가 복사되었습니다.</span>
+            </BrowserView>
+            <span className={`${link && styles.block} ${styles.support}`}>메일 주소가 복사되었습니다!</span>
             {/* <div className={styles.code}>{code}</div> */}
             <div className={styles.codeTxt}>2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 만드는 것이 역량이라고 생각합니다. 사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용할 맛이 나도록 만드는 것이 제가 바라는 목표입니다.</div>
         </div>

@@ -31,19 +31,33 @@
 }
 
 .linkCollect {
-    margin-left: 1.1rem;
-    font-size: 1.15rem;
+    font-size: 1.4rem;
+    margin: 2.8rem 0 0;
+    display: block;
 }
 
 @media (max-width: 1199px){ .linkCollect {
     position: absolute;
-    font-size: 1.3rem!important;
+    font-size: 1.25rem!important;
     top: 1.35rem;
     right: 1rem;
+    margin: 0;
     z-index: 6;
     transition: all .5s ease;
     opacity: 1;
 }}
+
+.linkCollect a {
+    cursor: pointer;
+}
+
+.browserMargin a ~ a{
+    margin-left: .6rem;
+}
+
+.browserMargin a:first-child {
+    margin-left: 0!important;
+}
 
 .hide {
     opacity: 0;
@@ -57,10 +71,11 @@
 }
 
 .codeTxt {
-    margin-top: 2.7rem!important;
+    margin-top: 1.2rem!important;
 }
 
 @media (max-width: 1199px){ .codeTxt {
+    margin-top: 3rem!important;
     font-size: .9rem;
 }}
 
@@ -127,33 +142,35 @@
 }} 
 
 .support {
-    display: none;
+    opacity: 0;
     position: fixed;
     width: 94%;
-    max-width: 20rem;
     margin: 0 auto;
+    max-width: 1000px;
     text-align: center;
     border-radius: 1rem;
-    padding: .8rem 0;
+    padding: .95rem 0;
     background: #6293d4;
     left: 50%;
-    bottom: 1rem;
+    bottom: 3rem;
     transform: translate(-50%);
     font-style: normal;
-    font-size: .8rem;
+    font-size: .82rem;
     color: #fff;
     z-index: 1;
-    transition: all .5s ease;
+    transition: all .3s ease;
     box-shadow: rgb(17 17 26 / 25%) 0px 6px 10px, rgb(17 17 26 / 10%) 0px 8px 6px, rgb(17 17 26 / 10%) 0px 16px 56px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    backdrop-filter: blur(20px);
+    background: rgb(98 147 212 / 75%);
 }
 
 @media (max-width: 1199px){ .support {
-    /* top: 2rem;
-    left: -1rem; */
+    bottom: 1.8rem!important;
 }} 
 
 .block {
-    display: block!important;
+    opacity: 1!important;
 }
 
 .comPeriod {

@@ -14,7 +14,7 @@
 
 .intro p {
     font-weight: 500;
-    font-size: 1.32rem;
+    font-size: 1.55rem;
     margin-bottom: 1.5rem;
 }
 
@@ -36,8 +36,8 @@
 }
 
 .linkCollect {
-    font-size: 1.4rem;
-    margin: 2.8rem 0 0;
+    font-size: 1.6rem;
+    margin: 3.5rem 0 0;
     display: block;
 }
 
@@ -76,7 +76,8 @@
 }
 
 .codeTxt {
-    margin-top: 1.2rem!important;
+    margin-top: 1.6rem!important;
+    font-size: 1.1rem;
 }
 
 @media (max-width: 1199px){ .codeTxt {
@@ -106,11 +107,15 @@
 }
 
 .company {
-    margin-top: 3rem;
+    margin-top: 6rem;
     border-top: 1.5px solid #d4e2f2;
     border-bottom: 1.5px solid #d4e2f2;
     width: 100%;
 }
+
+@media (max-width: 1199px){ .company {
+    margin-top: 4rem;
+}}
 
 .company li {
     display: flex;
@@ -295,6 +300,7 @@
 .commitBox {
     position: relative;
     padding: 1.45rem 0;
+    font-size: 1.1rem;
 }
 
 .commitImg {
@@ -314,7 +320,7 @@
     display: inline-block;
     padding-left: .8rem;
     word-break: keep-all;
-    line-height: 1.6;
+    /* line-height: 1.5; */
 }
 
 @media (max-width: 1199px){ .commitBox .commitDesc {
@@ -347,7 +353,7 @@
 }
 
 .pList p {
-    font-size: 1.55rem;
+    font-size: 1.75rem;
     font-weight: 600;
 }
 

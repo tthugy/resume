@@ -131,16 +131,20 @@
 .company li div {
     display: inline-block;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.45rem;
     flex-basis: 20%;
 }
+
+@media (max-width: 1199px){ .company li div {
+    font-size: 1.3rem;
+}} 
 
 .company li div span {
     display: block;
     font-size: .9rem;
     color: rgb(124, 124, 124);
     margin-left: 0;
-    margin-top: .3rem;
+    margin-top: .45rem;
 }
 
 .company li span {
@@ -190,9 +194,13 @@
     color: #fff!important;
     border-top-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
-    margin-top: .6rem!important;
+    margin-top: 1rem!important;
     font-size: .8rem!important;
 }
+
+@media (max-width: 1199px){ .comPeriod {
+    margin-top: .8rem!important;
+}} 
 
 .comCont {
     font-size: .95rem;
@@ -302,6 +310,10 @@
     padding: 1.45rem 0;
     font-size: 1.1rem;
 }
+
+@media (max-width: 1199px){ .commitBox {
+    font-size: .9rem;
+}} 
 
 .commitImg {
     width: 50%;

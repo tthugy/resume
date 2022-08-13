@@ -46,14 +46,12 @@ export default function Header() {
 //   })
 // }
 
-const code = "</>";
-
   return (
     <main className={styles.main}>
         <div className={styles.intro}>
             <p>
               안녕하세요. 개발자 최원석입니다.
-              <MobileView>
+              {/* <MobileView> */}
               <span className={`${styles.linkCollect}`}>
                 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
@@ -61,13 +59,13 @@ const code = "</>";
                 <a target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
                   <i className="bi bi-linkedin"></i>
                 </a>
-                <a onClick={linkClickedMobile}>
+                <a onClick={linkClicked}>
                   <i className={`bi bi-at`}></i>
                 </a>
               </span>
-            </MobileView>
+              {/* </MobileView> */}
             </p>
-            <BrowserView>
+            {/* <BrowserView>
               <span className={`${styles.linkCollect} ${styles.browserMargin}`}>
                 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
@@ -79,9 +77,8 @@ const code = "</>";
                   <i className={`bi bi-at`}></i>
                 </a>
               </span>
-            </BrowserView>
+            </BrowserView> */}
             <span className={`${link && styles.block} ${styles.support}`}>메일 주소가 복사되었습니다!</span>
-            {/* <div className={styles.code}>{code}</div> */}
             <div className={styles.codeTxt}>2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 만드는 것이 역량이라고 생각합니다. 사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용할 맛이 나도록 만드는 것이 제가 바라는 목표입니다.</div>
         </div>
 

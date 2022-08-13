@@ -30,7 +30,7 @@
 
 .fe {
     font-weight: 600;
-    color: #3560b8;
+    color: #666;
     display: inline-block;
     /* padding: 0 .05rem; */
 }
@@ -44,8 +44,9 @@
 @media (max-width: 1199px){ .linkCollect {
     position: absolute;
     font-size: 1.25rem!important;
+    background: none;
     top: 1.35rem;
-    right: 1rem;
+    right: 1.2rem;
     margin: 0;
     z-index: 6;
     transition: all .5s ease;
@@ -54,7 +55,57 @@
 
 .linkCollect a {
     cursor: pointer;
+    border-radius: 50%;
+    width: 2.8rem;
+    height: 2.8rem;
+    background: #0b65c2;
+    display: inline-block;
+    position: relative;
 }
+
+@media (max-width: 1199px){ .linkCollect a {
+    background: none;
+    width: fit-content;
+    height: fit-content;
+}}
+
+.linkCollect a i {
+    color: #fff;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1199px){ .linkCollect a i {
+    color: #202020;
+    position: relative;
+}}
+
+.linkCollect a:first-child {
+    background: #161b22;
+}
+
+@media (max-width: 1199px){ .linkCollect a:first-child {
+    background: none;
+}}
+
+.linkCollect a:last-child {
+    background: #ea4335;
+}
+
+@media (max-width: 1199px){ .linkCollect a:last-child {
+    background: none;
+}}
+
+.linkCollect a:last-child i {
+    font-size: 1.65rem;
+}
+
+@media (max-width: 1199px){ .linkCollect a:last-child i {
+    font-size: 1.43rem;
+}}
 
 .browserMargin a ~ a{
     margin-left: .6rem;
@@ -87,7 +138,6 @@
 
 .intro p span i {
     cursor: pointer;
-    position: relative;
     z-index: 1;
     transition: all .5 ease;
 }

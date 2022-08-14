@@ -45,7 +45,7 @@
     position: absolute;
     font-size: 1.25rem!important;
     background: none;
-    top: 1.35rem;
+    top: 1.35rem!important;
     right: 1.2rem;
     margin: 0;
     z-index: 6;

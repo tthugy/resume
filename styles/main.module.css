@@ -42,7 +42,7 @@
 }
 
 @media (max-width: 1199px){ .linkCollect {
-    position: absolute;
+    position: fixed;
     font-size: 1.25rem!important;
     background: none;
     top: 1.35rem!important;
@@ -107,11 +107,11 @@
     font-size: 1.43rem;
 }}
 
-.browserMargin a ~ a{
+.linkCollect a ~ a{
     margin-left: .6rem;
 }
 
-.browserMargin a:first-child {
+.linkCollect a:first-child {
     margin-left: 0!important;
 }
 

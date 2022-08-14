@@ -42,11 +42,11 @@
 }
 
 @media (max-width: 1199px){ .linkCollect {
-    position: fixed;
+    position: absolute;
     font-size: 1.25rem!important;
     background: none;
-    top: 1.35rem!important;
-    right: 1.2rem;
+    top: 1.35rem;
+    right: .9rem;
     margin: 0;
     z-index: 6;
     transition: all .5s ease;
@@ -65,8 +65,9 @@
 
 @media (max-width: 1199px){ .linkCollect a {
     background: none;
-    width: fit-content;
-    height: fit-content;
+    display: inline-grid;
+    width: auto;
+    height: auto;
 }}
 
 .linkCollect a i {

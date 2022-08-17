@@ -1,5 +1,12 @@
-# 🚀 Resume / [Wonseok Choi](https://github.com/tthugy)
+## Resume / [Wonseok Choi](https://github.com/tthugy)
 > 지속적으로 업데이트 중인 웹 이력서입니다. (프론트엔드 엔지니어)  
+
+<br/>
+
+## Stack
+
+- 클라이언트: Next.js
+- 배포: github-actions
 
 <br/>
 

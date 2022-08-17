@@ -373,7 +373,7 @@
 }
 
 .pList {
-    padding: 2.45rem 0;
+    padding: 2.45rem 0 3rem;
     display: flex;
     justify-content: space-between;
 }

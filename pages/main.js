@@ -46,7 +46,7 @@ export default function Header() {
                   <i className={`bi bi-at`}></i>
                 </a>
               </div>
-            <div className={styles.codeTxt}>2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 만드는 것이 역량이라고 생각합니다. 사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용할 맛이 나도록 만드는 것이 제가 바라는 목표입니다.</div>
+            <div className={styles.codeTxt}>2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 꾸준한 자기계발을 통해 학습한 것들로 더욱 견고한 개발자가 되고자 합니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 개선해 나가는 것이 핵심 역량이라고 생각합니다.  사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용자가 사용하고 싶게끔 만드는 것이 제가 바라는 목표입니다.</div>
         </div>
 
         <div className={styles.company}>
@@ -57,7 +57,7 @@ export default function Header() {
                 <span>프론트엔드 개발자</span> 
                 <span className={styles.comPeriod}>21.04 ~ current</span> 
               </div>
-              <span className={styles.comCont}>핀테크 서비스업에서 프론트엔드 개발을 담당하고 있습니다.</span>
+              <span className={styles.comCont}>현재 핀테크 스타트업에서 프론트엔드 개발을 담당하고 있습니다.</span>
             </li>
           </ul>
         </div>
@@ -81,7 +81,7 @@ export default function Header() {
             </span>
           </div>
           <span className={styles.commitDesc}>
-            저는 개발을 시작한 이래로, 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
+            저는 개인 Github 계정을 만든 이래로, 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
             <br/><br/>
             위 이미지는 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정</a> 커밋 내역을 그래프화한 것으로써, 이를 가장 확연하게 증명할 수 있을 것 같습니다.
           </span>

@@ -135,13 +135,13 @@ export default function Header() {
                 <ul className={styles.pDetailDesc}>
                   <li>Vanilla Html + CSS + Javascript</li>
                   <li>Ajax</li>
-                  <li>WebSocket</li>
+                  <li>Socket.io</li>
                   <li>WebView</li>
                 </ul>
                 <li className={styles.bold}>Description</li>
                 <span>기존에 개발된 기능 유지보수 및 신규 거래소 개발</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  <li>웹소켓, Chart.js를 통해 거래소 시세 및 차트 구현</li>
+                  <li>Socket.io, Chart.js를 통해 거래소 시세 및 차트 구현</li>
                   <li>WebView을 통한 웹 앱 빌드</li>
                 </ul>
               </ul>

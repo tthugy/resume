@@ -409,6 +409,10 @@
     overflow: scroll;
 }
 
+.pImage::-webkit-scrollbar {
+    display: none!important;
+}
+
 .pImage:last-child {
     border-left: 1px solid #eee;
 }

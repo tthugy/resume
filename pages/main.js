@@ -14,6 +14,16 @@ import thx2 from '../public/thx2.png'
 
 export default function Header() {
 
+  const scrollTop = e => {
+    if (!window.scrollY) return;
+
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  
+  };
+
 // let prevScrollTop = 0;
 // if (typeof window !== "undefined"){
 //   setInterval(()=>{
@@ -190,7 +200,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <p className={styles.end}>
+        <p onClick={scrollTop} className={styles.end}>
           감사합니다.
         </p>
     </main>

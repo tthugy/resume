@@ -519,3 +519,7 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+.docs {
+    background: #17c64e!important;
+}

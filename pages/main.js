@@ -52,6 +52,9 @@ export default function Header() {
                 <a target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
                   <i className="bi bi-linkedin"></i>
                 </a>
+                {/* <a className={styles.docs}>
+                  <i class="bi bi-filetype-pdf"></i>
+                </a> */}
                 <a href='mailto:cwstwin1@gmail.com'>
                   <i className={`bi bi-at`}></i>
                 </a>

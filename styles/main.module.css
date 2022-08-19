@@ -213,7 +213,7 @@
 .comPeriod {
     background: #3560b8;
     display: inline-block!important;
-    padding: .35rem .45rem;
+    padding: .5rem .6rem;
     color: #fff!important;
     border-top-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
@@ -223,6 +223,7 @@
 
 @media (max-width: 1199px){ .comPeriod {
     margin-top: .8rem!important;
+    padding: .4rem .5rem;
 }} 
 
 .comCont {

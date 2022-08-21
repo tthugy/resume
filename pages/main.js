@@ -75,7 +75,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
-      <Fade bottom>
+        <Fade bottom>
         <div className={styles.education}>
           <p className={styles.titles}>Educations<span>a</span></p>
           <div className={styles.eduCont}>
@@ -207,7 +207,7 @@ export default function Header() {
         <p onClick={scrollTop} className={styles.end}>
           감사합니다.
         </p>
-      </Fade>
+        </Fade>
     </main>
   )
 }

@@ -11,7 +11,7 @@ import wobble1 from '../public/wobble1.png'
 import wobble2 from '../public/wobble2.png'
 import thx1 from '../public/thx1.png'
 import thx2 from '../public/thx2.png'
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 export default function Header() {
 
@@ -75,7 +75,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        <Fade bottom>
+        {/* <Fade bottom> */}
         <div className={styles.education}>
           <p className={styles.titles}>Educations<span>a</span></p>
           <div className={styles.eduCont}>
@@ -207,7 +207,7 @@ export default function Header() {
         <p onClick={scrollTop} className={styles.end}>
           감사합니다.
         </p>
-        </Fade>
+        {/* </Fade> */}
     </main>
   )
 }

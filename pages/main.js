@@ -11,9 +11,14 @@ import wobble1 from '../public/wobble1.png'
 import wobble2 from '../public/wobble2.png'
 import thx1 from '../public/thx1.png'
 import thx2 from '../public/thx2.png'
-// import Fade from 'react-reveal/Fade';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Header() {
+
+  useEffect(() => {
+    AOS.init();
+  })
 
   const scrollTop = e => {
     if (!window.scrollY) return;
@@ -63,7 +68,7 @@ export default function Header() {
             <div className={styles.codeTxt}>2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 꾸준한 자기계발을 통해 학습한 것들로 더욱 견고한 개발자가 되고자 합니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 개선해 나가는 것이 핵심 역량이라고 생각합니다.  사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용자에게 보다 편리한 경험을 제공하는 것이 제가 바라는 목표입니다.</div>
         </div>
 
-        <div className={styles.company}>
+        <div data-aos="fade-up" className={styles.company}>
           <ul>
             <li>
               <div>
@@ -75,8 +80,8 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        {/* <Fade bottom> */}
-        <div className={styles.education}>
+
+        <div data-aos="fade-up" className={styles.education}>
           <p className={styles.titles}>Educations<span>a</span></p>
           <div className={styles.eduCont}>
             <span>백석대학교, 16.03 ~ 22.02</span>
@@ -87,7 +92,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className={styles.commitBox}>
+        <div data-aos="fade-up" className={styles.commitBox}>
           <p className={styles.titles}>Self Improvement<span>b</span></p>
           <div className={styles.commitImg}>
             <span className={styles.commit}>
@@ -103,7 +108,7 @@ export default function Header() {
 
         <div className={styles.project}>
           <p className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects<span>c</span></p>
-          <div className={styles.pList}>
+          <div data-aos="fade-up" className={styles.pList}>
             <div className={styles.pLeft}>
               <p>워블</p>
               <span className={styles.pTimeLine}>
@@ -137,7 +142,7 @@ export default function Header() {
               </span>
             </div>
           </div>
-          <div className={styles.pList}>
+          <div data-aos="fade-up" className={styles.pList}>
             <div className={styles.pLeft}>
               <p>땡스페이</p>
               <span className={styles.pTimeLine}>
@@ -169,7 +174,7 @@ export default function Header() {
               </span>
             </div>
           </div>
-          <div className={styles.pList}>
+          <div data-aos="fade-up" className={styles.pList}>
             <div className={styles.pLeft}>
               <p>삼성증권 투자스쿨</p>
               <span className={styles.pTimeLine}>
@@ -207,7 +212,7 @@ export default function Header() {
         <p onClick={scrollTop} className={styles.end}>
           감사합니다.
         </p>
-        {/* </Fade> */}
+
     </main>
   )
 }

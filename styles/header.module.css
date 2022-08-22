@@ -34,7 +34,12 @@
     display: block;
 }} 
 
+.linkCollect {
+    display: none;
+}
+
 @media (max-width: 1199px){ .linkCollect {
+    display: block;
     position: absolute;
     font-size: 1.25rem!important;
     background: none;

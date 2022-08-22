@@ -65,7 +65,7 @@ export default function Header() {
                   <i className={`bi bi-at`}></i>
                 </a>
             </div>
-            <div className={styles.codeTxt}>2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 꾸준한 자기계발을 통해 학습한 것들로 더욱 견고한 개발자가 되고자 합니다. 저는 잘 하는 프론트엔드 개발자가 API 연동을 문제없이 하는 것뿐 아니라 사용자가 더욱 페이지에 머무르고 싶도록 개선해 나가는 것이 핵심 역량이라고 생각합니다.  사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용자에게 보다 편리한 경험을 제공하는 것이 제가 바라는 목표입니다.</div>
+            <div className={styles.codeTxt}>저는 2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 꾸준한 자기계발을 통해 학습한 것들로 더욱 견고한 개발자가 되고자 합니다. 저는 프론트엔드 개발자의 핵심 역량은 API 연동을 문제없이 하는 것뿐만 아니라 사용자가 더욱 오랫동안 페이지에 머무르고 싶도록 개선해 나가는 것이 핵심 역량이라고 생각합니다.  사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용자에게 보다 편리한 경험을 제공하는 것이 저의 목표입니다.</div>
         </div>
 
         <div data-aos="fade-up" className={styles.company}>
@@ -100,9 +100,9 @@ export default function Header() {
             </span>
           </div>
           <span className={styles.commitDesc}>
-            저는 개인 Github 계정을 만든 이래로, 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
+            저는 개인 Github 계정을 만들어 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
             <br/><br/>
-            위 이미지는 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정</a> 커밋 내역을 그래프화한 것으로써, 이를 가장 확연하게 증명할 수 있을 것 같습니다.
+            위 이미지는 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정</a> 커밋 내역을 그래프화한 것으로써, 이를 한눈에 보여줍니다.
           </span>
         </div>
 
@@ -115,7 +115,7 @@ export default function Header() {
                 <i className="bi bi-calendar-event"></i> &nbsp;22.07 ~ current
               </span>
               <ul className={styles.projectDesc}>
-                <li>📍 업무 효율을 높여주는 스케줄 관리 협업툴</li>
+                <li>📍 업무 효율을 높여 주는 스케줄 관리 협업툴</li>
                 <li className={styles.bold}>기술 스택</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Next.js</li>
@@ -124,12 +124,12 @@ export default function Header() {
                   <li>zustand</li>
                 </ul>
                 <li className={styles.bold}>Description</li>
-                <span>초기 설계단계부터 참여하여 현재까지 진행중인 프로젝트</span>
+                <span>초기 설계단계부터 참여하여 현재까지 진행 중인 프로젝트</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   <li>모바일 전용 웹페이지로 Next.js로 개발</li>
                   <li>Axois를 통해 Node.js REST API 연동</li>
                   <li>zustand로 전역 상태 관리</li>
-                  <li>github로 이슈관리, jenkins 파이프라인을 통한 지속적 통합 및 배포</li>
+                  <li>github로 이슈 관리, jenkins 파이프라인을 통한 지속적 통합 및 배포</li>
                 </ul>
               </ul>
             </div>
@@ -181,7 +181,7 @@ export default function Header() {
                 <i className="bi bi-calendar-event"></i> &nbsp;21.06 ~ 21.08
               </span>
               <ul className={styles.projectDesc}>
-                <li>📍 투자 초보자(주린이)들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
+                <li>📍 투자 초보자('주린이')들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
                 <li className={styles.bold}>기술 스택</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Php</li>

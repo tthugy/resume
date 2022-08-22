@@ -15,11 +15,11 @@ export default function Header() {
 
   return (
     <header>
-        <span data-aos="fade-up" className={styles.tIcon}>👨🏻‍💻</span>
-        <div data-aos="fade-up" className={styles.title}>
+        <span data-aos="fade-up" data-aos-duration="800" className={styles.tIcon}>👨🏻‍💻</span>
+        <div data-aos="fade-up" data-aos-duration="800" className={styles.title}>
           <p>Resume of <span>Wonseok Choi</span></p>
         </div>
-        <div data-aos="fade-up" className={`${styles.linkCollect}`}>
+        <div data-aos="fade-up" data-aos-duration="800" className={`${styles.linkCollect}`}>
             <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
               <i className="bi bi-github"></i>
             </a>

@@ -47,7 +47,7 @@ export default function Header() {
 
   return (
     <main className={styles.main}>
-        <div data-aos="fade-up" className={styles.intro}>
+        <div data-aos="fade-up" data-aos-duration="800" className={styles.intro}>
             <p>
               안녕하세요. 개발자 최원석입니다.
             </p>
@@ -68,7 +68,7 @@ export default function Header() {
             <div className={styles.codeTxt}>저는 2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 꾸준한 자기계발을 통해 학습한 것들로 더욱 견고한 개발자가 되고자 합니다. 저는 프론트엔드 개발자의 핵심 역량은 API 연동을 문제없이 하는 것뿐만 아니라 사용자가 더욱 오랫동안 페이지에 머무르고 싶도록 개선해 나가는 것이 핵심 역량이라고 생각합니다.  사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용자에게 보다 편리한 경험을 제공하는 것이 저의 목표입니다.</div>
         </div>
 
-        <div data-aos="fade-up" className={styles.company}>
+        <div data-aos="fade-up" data-aos-duration="800" className={styles.company}>
           <ul>
             <li>
               <div>
@@ -82,8 +82,8 @@ export default function Header() {
         </div>
 
         <div className={styles.education}>
-          <p data-aos="fade-left" className={styles.titles}>Educations<span>a</span></p>
-          <div data-aos="fade-up" className={styles.eduCont}>
+          <p data-aos="fade-left" data-aos-duration="600" className={styles.titles}>Educations<span>a</span></p>
+          <div data-aos="fade-up" data-aos-duration="800" className={styles.eduCont}>
             <span>백석대학교, 16.03 ~ 22.02</span>
             <ul>
               <li>주전공: 정보통신학</li>
@@ -93,8 +93,8 @@ export default function Header() {
         </div>
 
         <div className={styles.commitBox}>
-          <p data-aos="fade-left" className={styles.titles}>Self Improvement<span>b</span></p>
-          <div data-aos="fade-up" className={styles.commitImg}>
+          <p data-aos="fade-left" data-aos-duration="600" className={styles.titles}>Self Improvement<span>b</span></p>
+          <div data-aos="fade-up" data-aos-duration="800" className={styles.commitImg}>
             <span className={styles.commit}>
               <Image alt="Commit Graph" src={Commit} layout='responsive' objectFit='contain' priority />
             </span>
@@ -107,8 +107,8 @@ export default function Header() {
         </div>
 
         <div className={styles.project}>
-          <p data-aos="fade-left" className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects<span>c</span></p>
-          <div data-aos="fade-up" className={styles.pList}>
+          <p data-aos="fade-left" data-aos-duration="600" className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects<span>c</span></p>
+          <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
               <p>워블</p>
               <span className={styles.pTimeLine}>
@@ -142,7 +142,7 @@ export default function Header() {
               </span>
             </div>
           </div>
-          <div data-aos="fade-up" className={styles.pList}>
+          <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
               <p>땡스페이</p>
               <span className={styles.pTimeLine}>
@@ -174,7 +174,7 @@ export default function Header() {
               </span>
             </div>
           </div>
-          <div data-aos="fade-up" className={styles.pList}>
+          <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
               <p>삼성증권 투자스쿨</p>
               <span className={styles.pTimeLine}>

@@ -45,6 +45,8 @@ export default function Header() {
 //   })
 // }
 
+  const word = "'주린이'";
+
   return (
     <main className={styles.main}>
         <div data-aos="fade-up" data-aos-duration="800" className={styles.intro}>
@@ -181,7 +183,7 @@ export default function Header() {
                 <i className="bi bi-calendar-event"></i> &nbsp;21.06 ~ 21.08
               </span>
               <ul className={styles.projectDesc}>
-                <li>📍 투자 초보자('주린이')들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
+                <li>📍 투자 초보자({word})들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
                 <li className={styles.bold}>기술 스택</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Php</li>

@@ -33,3 +33,47 @@
 @media (max-width: 1199px){ .title p span {
     display: block;
 }} 
+
+@media (max-width: 1199px){ .linkCollect {
+    position: absolute;
+    font-size: 1.25rem!important;
+    background: none;
+    top: 1.35rem;
+    right: .9rem;
+    margin: 0;
+    z-index: 6;
+    transition: all .5s ease;
+    opacity: 1;
+}}
+
+@media (max-width: 1199px){ .linkCollect a {
+    background: none;
+    display: inline-grid;
+    width: auto;
+    height: auto;
+}}
+
+@media (max-width: 1199px){ .linkCollect a i {
+    color: #202020;
+    position: relative;
+}}
+
+@media (max-width: 1199px){ .linkCollect a:first-child {
+    background: none;
+}}
+
+@media (max-width: 1199px){ .linkCollect a:last-child {
+    background: none;
+}}
+
+@media (max-width: 1199px){ .linkCollect a:last-child i {
+    font-size: 1.43rem;
+}}
+
+.linkCollect a ~ a{
+    margin-left: .6rem;
+}
+
+.linkCollect a:first-child {
+    margin-left: 0!important;
+}

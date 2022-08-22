@@ -28,7 +28,7 @@ export default function Header() {
       behavior: 'smooth'
     });
   
-  };
+  }
 
 // let prevScrollTop = 0;
 // if (typeof window !== "undefined"){

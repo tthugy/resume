@@ -30,6 +30,16 @@ export default function Header() {
   
   }
 
+  const scrollDown = e => {
+    if (!window.scrollY) return;
+
+    window.scrollTo({
+      bottom: 0,
+      behavior: 'smooth'
+    });
+  
+  }
+
 // let prevScrollTop = 0;
 // if (typeof window !== "undefined"){
 //   setInterval(()=>{

@@ -125,7 +125,7 @@ export default function Header() {
                   <li>Axios</li>
                   <li>zustand</li>
                 </ul>
-                <li className={styles.bold}>✨ Description</li>
+                <li className={styles.bold}>💬 Description</li>
                 <span>초기 설계단계부터 참여하여 현재까지 진행 중인 프로젝트</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   <li>프로젝트 초기 React Application Architecture 설계</li>
@@ -136,12 +136,8 @@ export default function Header() {
               </ul>
             </div>
             <div className={styles.pRight}>
-              <span className={styles.pImage}>
-                <Image src={wobble1} alt="Wobble Login" layout='responsive' objectFit='contain' priority />
-              </span>
-              <span className={styles.pImage}>
-                <Image src={wobble2} alt="Wobble Calendar" layout='responsive' objectFit='contain' priority />
-              </span>
+              <span className={`${styles.pImage} ${styles.wobble1}`}></span>
+              <span className={`${styles.pImage} ${styles.wobble2}`}></span>
             </div>
           </div>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
@@ -159,21 +155,16 @@ export default function Header() {
                   <li>Socket.io</li>
                   <li>WebView</li>
                 </ul>
-                <li className={styles.bold}>✨ Description</li>
+                <li className={styles.bold}>💬 Description</li>
                 <span>기존에 개발된 기능 유지보수 및 신규 거래소 개발</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   <li>Socket.io, Chart.js를 통해 거래소 시세 및 차트 구현</li>
-                  <li>WebView을 통한 웹 앱 빌드</li>
                 </ul>
               </ul>
             </div>
             <div className={styles.pRight}>
-              <span className={styles.pImage}>
-                <Image src={thx1} alt="THX Stock-market" layout='responsive' objectFit='contain' priority />
-              </span>
-              <span className={styles.pImage}>
-                <Image src={thx2} alt="THX main" layout='responsive' objectFit='contain' priority />
-              </span>
+              <span className={`${styles.pImage} ${styles.thx1}`}></span>
+              <span className={`${styles.pImage} ${styles.thx2}`}></span>
             </div>
           </div>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
@@ -189,10 +180,9 @@ export default function Header() {
                   <li>Php</li>
                   <li>MySQL</li>
                 </ul>
-                <li className={styles.bold}>✨ Description</li>
+                <li className={styles.bold}>💬 Description</li>
                 <span>PDO 기반 Back-end 기능 개선 및 Mysql database 설계</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  {/* <li></li> */}
                   {/* <li></li> */}
                 </ul>
                 <li className={styles.bold}>담당 기능</li>
@@ -202,12 +192,8 @@ export default function Header() {
               </ul>
             </div>
             <div className={styles.pRight}>
-              <span className={styles.pImage}>
-                <Image src={samsung1} alt="SamsungPop Main" layout='responsive' objectFit='contain' priority />
-              </span>
-              <span className={styles.pImage}>
-                <Image src={samsung2} alt="SamsungPop Class" layout='responsive' objectFit='contain' priority />
-              </span>
+              <span className={`${styles.pImage} ${styles.samsung1}`}></span>
+              <span className={`${styles.pImage} ${styles.samsung2}`}></span>
             </div>
           </div>
         </div>

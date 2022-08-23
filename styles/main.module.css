@@ -529,3 +529,33 @@
 .docs {
     background: #17c64e!important;
 }
+
+.wobble1 {
+    background: url('../public/wobble1.png')center center no-repeat;
+    background-size: contain;
+}
+
+.wobble2 {
+    background: url('../public/wobble2.png')center center no-repeat;
+    background-size: contain;
+}
+
+.thx1 {
+    background: url('../public/thx1.png')center center no-repeat;
+    background-size: contain;
+}
+
+.thx2 {
+    background: url('../public/thx2.png')center center no-repeat;
+    background-size: contain;
+}
+
+.samsung1 {
+    background: url('../public/samsung1.png')center center no-repeat;
+    background-size: contain;
+}
+
+.samsung2 {
+    background: url('../public/samsung2.png')center center no-repeat;
+    background-size: contain;
+}

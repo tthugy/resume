@@ -118,19 +118,19 @@ export default function Header() {
               </span>
               <ul className={styles.projectDesc}>
                 <li>📍 업무 효율을 높여 주는 스케줄 관리 협업툴</li>
-                <li className={styles.bold}>기술 스택</li>
+                <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Next.js</li>
                   <li>CSS-module</li>
                   <li>Axios</li>
                   <li>zustand</li>
                 </ul>
-                <li className={styles.bold}>Description</li>
+                <li className={styles.bold}>✨ Description</li>
                 <span>초기 설계단계부터 참여하여 현재까지 진행 중인 프로젝트</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  <li>모바일 전용 웹페이지로 Next.js로 개발</li>
+                  <li>프로젝트 초기 React Application Architecture 설계</li>
+                  <li>팀 내 Next.js 도입</li>
                   <li>Axois를 통해 Node.js REST API 연동</li>
-                  <li>zustand로 전역 상태 관리</li>
                   <li>github로 이슈 관리, jenkins 파이프라인을 통한 지속적 통합 및 배포</li>
                 </ul>
               </ul>
@@ -152,14 +152,14 @@ export default function Header() {
               </span>
               <ul className={styles.projectDesc}>
                 <li>📍 페이, 커머스, 거래소 등 다양한 서비스를 즐길 수 있는 App</li>
-                <li className={styles.bold}>기술 스택</li>
+                <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Vanilla Html + CSS + Javascript</li>
                   <li>Ajax</li>
                   <li>Socket.io</li>
                   <li>WebView</li>
                 </ul>
-                <li className={styles.bold}>Description</li>
+                <li className={styles.bold}>✨ Description</li>
                 <span>기존에 개발된 기능 유지보수 및 신규 거래소 개발</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   <li>Socket.io, Chart.js를 통해 거래소 시세 및 차트 구현</li>
@@ -184,12 +184,12 @@ export default function Header() {
               </span>
               <ul className={styles.projectDesc}>
                 <li>📍 투자 초보자({word})들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
-                <li className={styles.bold}>기술 스택</li>
+                <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Php</li>
                   <li>MySQL</li>
                 </ul>
-                <li className={styles.bold}>Description</li>
+                <li className={styles.bold}>✨ Description</li>
                 <span>PDO 기반 Back-end 기능 개선 및 Mysql database 설계</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   {/* <li></li> */}

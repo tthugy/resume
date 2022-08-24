@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import styles from '../styles/header.module.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import memoticon from '../public/memoticon.png'
 
 export default function Header() {
 
@@ -15,7 +16,11 @@ export default function Header() {
 
   return (
     <header>
-        <span data-aos="fade-up" data-aos-duration="800" className={styles.tIcon}>👨🏻‍💻</span>
+        <span data-aos="fade-up" data-aos-duration="800" className={styles.tIcon}>
+          <div className={styles.memo}>
+            <Image alt="Wonseok" src={memoticon} layout='responsive' objectFit='contain' priority />
+          </div>
+        </span>
         <div data-aos="fade-up" data-aos-duration="800" className={styles.title}>
           <p>Resume of <span>Wonseok Choi</span></p>
         </div>

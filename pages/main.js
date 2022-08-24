@@ -62,7 +62,7 @@ export default function Header() {
     <main className={styles.main}>
         <div data-aos="fade-up" data-aos-duration="800" className={styles.intro}>
             <p>
-              안녕하세요. 개발자 최원석입니다.
+              안녕하세요. 프론트엔드 개발자 최원석입니다.
             </p>
             <div className={`${styles.linkCollect}`}>
                 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>

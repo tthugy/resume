@@ -332,6 +332,20 @@
     padding-left: .3rem;
 }} 
 
+.eduCont a {
+    color: #3560b8;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.pageOut {
+    font-size: .8rem;
+    margin: 0 .3rem;
+    vertical-align: text-top;
+    padding-top: .1rem;
+    display: inline-block;
+}
+
 .commitBox {
     position: relative;
     padding: 1.45rem 0;

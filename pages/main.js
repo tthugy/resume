@@ -100,7 +100,12 @@ export default function Header() {
             <span>백석대학교, 16.03 ~ 22.02</span>
             <ul>
               <li>주전공: 정보통신학</li>
-              <li>복수전공: 컬처테크융합</li>
+              <li>복수전공:&nbsp;
+                <a target='_blank' href='https://www.bu.ac.kr/web/3812/subview.do' rel='noopener noreferrer'>
+                  컬처테크융합
+                  <i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -115,7 +120,7 @@ export default function Header() {
           <span className={styles.commitDesc}>
             저는 개인 Github 계정을 만들어 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
             <br/><br/>
-            위 이미지는 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정</a> 커밋 내역을 그래프화한 것으로써, 이를 한눈에 보여줍니다.
+            위 이미지는 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a> 커밋 내역을 그래프화한 것으로써, 이를 한눈에 보여줍니다.
           </span>
         </div>
 
@@ -194,11 +199,7 @@ export default function Header() {
                 <li className={styles.bold}>💬 Description</li>
                 <span>PDO 기반 Back-end 기능 개선 및 Mysql database 설계</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  {/* <li></li> */}
-                </ul>
-                <li className={styles.bold}>담당 기능</li>
-                <ul className={`${styles.pDetailDesc}`}>
-                  <li>공지사항, 강의 페이지, 이벤트 페이지, 투자성향 캐릭터 설정 페이지</li>
+                  <li>담당기능: 공지사항, 강의 페이지, 이벤트 페이지, 투자성향 캐릭터 설정 페이지</li>
                 </ul>
               </ul>
             </div>

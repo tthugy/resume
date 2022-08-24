@@ -174,7 +174,7 @@ export default function Header() {
                 <li className={styles.bold}>💬 Description</li>
                 <span>기존에 개발된 기능 유지보수 및 신규 거래소 개발</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  <li>Socket.io, Chart.js를 통해 거래소 시세 및 차트 구현</li>
+                  <li>Socket.io, Chart.js를 통해 실시간 거래소 시세 및 차트 구현</li>
                 </ul>
               </ul>
             </div>

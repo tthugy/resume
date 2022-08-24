@@ -3,16 +3,16 @@
     margin: 1.4rem 0;
     /* font-size: 2.6rem; */
     width: 8.8rem;
-    height: 5.6rem;
+    height: 7.8rem;
     position: relative;
 }
 
 .memo {
     position: absolute;
-    top: 0.5rem;
+    top: -.5rem;
     left: -1.15rem;
     display: block;
-    width: 100%;
+    width: 8.6rem;
     height: 100%;
     z-index: 1;
 }
@@ -40,7 +40,7 @@
 }
 
 @media (max-width: 1199px){ .title p {
-    font-size: 1.95rem;
+    font-size: 2.05rem;
     margin-bottom: 0;
     background: linear-gradient(136deg, #78e7ff -18%, #3560b8 113%);
 }} 

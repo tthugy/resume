@@ -15,7 +15,8 @@ const modalStatus = () => {
 
   return (
     <div className="modal">
-        
+        <div className="modalTxt"></div>
+        <div className="modalBtn"></div>
     </div>
   )
 }

@@ -4,7 +4,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link'
 import styles from '../styles/main.module.css'
 import Commit from '../public/myCommit.png'
-import CommitDk from '../public/myCommit_dark.png'
 import samsung1 from '../public/samsung1.png'
 import samsung2 from '../public/samsung2.png'
 import wobble1 from '../public/wobble1.png'

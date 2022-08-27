@@ -14,7 +14,7 @@ body {
   background: #fafcfd;
 }
 
-@media (max-width: 1199px){ body {
+@media (max-width: 1023px){ body {
   font-size: 14px;
 }}
 

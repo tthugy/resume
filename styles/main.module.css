@@ -573,3 +573,21 @@
     background: url('../public/samsung2.png')center center no-repeat;
     background-size: contain;
 }
+
+.resume1 {
+    background: url('../public/resume1.png')center center no-repeat;
+    background-size: contain;
+}
+
+.resume2 {
+    background: url('../public/resume2.png')center center no-repeat;
+    background-size: contain;
+}
+
+.pLink {
+    font-size: 1rem;
+    margin-left: 0.7rem;
+    padding-top: 0.35rem;
+    vertical-align: text-top;
+    display: inline-block;
+}

@@ -215,7 +215,7 @@ export default function Header() {
             <div className={styles.pLeft}>
               <p className="projectLink">
                 <a target='_blank' href='https://github.com/tthugy/resume-template-nextJS' rel='noopener noreferrer'>resume-template-nextJS<i className={`${styles.pLink} bi bi-box-arrow-up-right`}></i></a>
-                </p>
+              </p>
               <span className={styles.pTimeLine}>
                 <i className="bi bi-calendar-event"></i> &nbsp;22.07 ~ current
               </span>

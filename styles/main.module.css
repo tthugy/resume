@@ -591,3 +591,7 @@
     vertical-align: text-top;
     display: inline-block;
 }
+
+@media (max-width: 1023px){ .pLink {
+    padding-top: 0.15rem;
+}} 

@@ -86,9 +86,9 @@ export default function Header() {
               <div>
                 정상
                 <span>프론트엔드 개발자</span> 
-                <span className={styles.comPeriod}>21.04 ~ current</span> 
+                <span className={styles.comPeriod}>21.04 ~ 22.08</span> 
               </div>
-              <span className={styles.comCont}>핀테크 스타트업에서 프론트엔드 개발을 담당하고 있습니다.</span>
+              <span className={styles.comCont}>핀테크 스타트업에서 프론트엔드 개발을 담당했으며 주로 웹 어플리케이션을 개발하였습니다.</span>
             </li>
           </ul>
         </div>

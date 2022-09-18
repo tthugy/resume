@@ -121,9 +121,9 @@ export default function En() {
             </span>
           </div>
           <span className={styles.commitDesc}>
-            저는 개인 Github 계정을 만들어 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기계발을 해 왔습니다.
+            I have created a personal Github account and have been steadily developing myself with the goal of daily study and commit in my spare time after work and on weekends.
             <br/><br/>
-            위 이미지는 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a> 커밋 내역을 그래프화한 것으로써, 이를 한눈에 보여줍니다.
+            The image above is a graph of the commit history of <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>my Github account<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a>, showing it at a glance.
           </span>
         </div>
 
@@ -131,7 +131,7 @@ export default function En() {
           <p data-aos="fade-left" data-aos-duration="600" className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects<span>c</span></p>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
-              <p>워블</p>
+              <p>Wobble</p>
               <span className={styles.pTimeLine}>
                 <i className="bi bi-calendar-event"></i> &nbsp;22.07 ~ current
               </span>

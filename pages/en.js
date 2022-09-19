@@ -58,6 +58,7 @@ export default function En() {
 
   const word = "'주린이'";
   const and = "&";
+  const am = "'m";
 
   return (
     <>
@@ -65,7 +66,7 @@ export default function En() {
     <main className={styles.main}>
         <div data-aos="fade-up" data-aos-duration="800" className={styles.intro}>
             <p>
-                Hello. I'm Wonseok Choi, a front-end developer.
+                Hello. I{am} Wonseok Choi, a front-end developer.
             </p>
             <div className={`${styles.linkCollect}`}>
                 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
@@ -81,7 +82,7 @@ export default function En() {
                   <i className={`bi bi-at`}></i>
                 </a>
             </div>
-            <div className={styles.codeTxt}>I'm a 2nd year <span className={styles.fe}>frontend developer</span>. I want to become a stronger developer with what I have learned through steady self-development. I think that the core competency of a front-end developer is not only to make API integration without problems, but also to improve it so that users want to stay on the page for a longer period of time. Although indiscriminate events that harm the user experience should be avoided, my goal is to provide a more convenient experience for users.</div>
+            <div className={styles.codeTxt}>I{am} a 2nd year <span className={styles.fe}>frontend developer</span>. I want to become a stronger developer with what I have learned through steady self-development. I think that the core competency of a front-end developer is not only to make API integration without problems, but also to improve it so that users want to stay on the page for a longer period of time. Although indiscriminate events that harm the user experience should be avoided, my goal is to provide a more convenient experience for users.</div>
         </div>
 
         <div data-aos="fade-up" data-aos-duration="800" className={styles.company}>

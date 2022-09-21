@@ -162,12 +162,12 @@ export default function En() {
           </div>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
-              <p>땡스페이</p>
+              <p>THXPAY</p>
               <span className={styles.pTimeLine}>
                 <i className="bi bi-calendar-event"></i> &nbsp;21.09 ~ 22.06
               </span>
               <ul className={styles.projectDesc}>
-                <li>📍 페이, 커머스, 거래소 등 다양한 서비스를 즐길 수 있는 App</li>
+                <li>📍 App that allows you to enjoy various services such as pay, commerce, and exchanges</li>
                 <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Vanilla Html + CSS + Javascript</li>
@@ -176,9 +176,9 @@ export default function En() {
                   <li>WebView</li>
                 </ul>
                 <li className={styles.bold}>💬 Description</li>
-                <span>기존에 개발된 기능 유지보수 및 신규 거래소 개발</span>
+                <span>Maintenance of previously developed functions and development of new exchanges</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  <li>Socket.io, Chart.js를 통해 실시간 거래소 시세 및 차트 구현</li>
+                  <li>Real-time exchange price and chart implementation through Socket.io and Chart.js</li>
                 </ul>
               </ul>
             </div>
@@ -189,21 +189,21 @@ export default function En() {
           </div>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
-              <p>삼성증권 투자스쿨</p>
+              <p>Samsung Financial Networks Investment School</p>
               <span className={styles.pTimeLine}>
                 <i className="bi bi-calendar-event"></i> &nbsp;21.06 ~ 21.08
               </span>
               <ul className={styles.projectDesc}>
-                <li>📍 투자 초보자({word})들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
+                <li>📍 Web App that provides investment beginners with the knowledge necessary for investment through video lectures</li>
                 <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Php</li>
                   <li>MySQL</li>
                 </ul>
                 <li className={styles.bold}>💬 Description</li>
-                <span>PDO 기반 Back-end 기능 개선 및 Mysql database 설계</span>
+                <span>PDO-based back-end function improvement and Mysql database design</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  <li>담당기능: 공지사항, 강의 페이지, 이벤트 페이지, 투자성향 캐릭터 설정 페이지</li>
+                  <li>Responsible functions: Notice, lecture page, event page, investment tendency character setting page</li>
                 </ul>
               </ul>
             </div>

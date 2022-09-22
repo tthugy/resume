@@ -49,7 +49,7 @@ export default function En() {
     <main className={styles.main}>
         <div data-aos="fade-up" data-aos-duration="800" className={styles.intro}>
             <p>
-                Hello. I{am} Wonseok Choi, a front-end developer.
+                Hello. I{am} Wonseok Choi, a Front-end developer.
             </p>
             <div className={`${styles.linkCollect}`}>
                 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
@@ -208,7 +208,7 @@ export default function En() {
                 <i className="bi bi-calendar-event"></i> &nbsp;22.07 ~ current
               </span>
               <ul className={styles.projectDesc}>
-                <li>📍 Next.js를 사용하는 개발자를 위한 웹 이력서 프로젝트</li>
+                <li>📍 Web resume project for developers using Next.js</li>
                 <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Next.js</li>
@@ -218,8 +218,8 @@ export default function En() {
                 <li className={styles.bold}>💬 Description</li>
                 {/* <span></span> */}
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  <li>프론트엔드 인터페이스 구현</li>
-                  <li>GitHub Action을 기반으로 CI/CD 구성</li>
+                  <li>Implementing the front-end interface</li>
+                  <li>CI/CD configuration based on GitHub Action</li>
                 </ul>
               </ul>
             </div>
@@ -231,7 +231,7 @@ export default function En() {
         </div>
 
         <p onClick={scrollTop} className={styles.end}>
-          감사합니다.
+          Thanks for reading my portfolio.
         </p>
 
     </main>

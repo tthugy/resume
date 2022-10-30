@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?" />
         <meta name="url" property="og:url" content="https://tthugy.github.io/resume/" />
-        <meta name="title" property="og:title" content="최원석 (Wonseok Choi)" />
+        <meta name="title" property="og:title" content="최원석(Wonseok Choi)" />
         <meta name="description" property="og:description" content="🚀 Resume/Frontend Engineer" />
         <meta name="image" property="og:image" content="https://tthugy.github.io/resume/thumbnail.png" />
       </Head>

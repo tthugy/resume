@@ -36,24 +36,7 @@ export default function Header() {
       bottom: 0,
       behavior: 'smooth'
     });
-  
   }
-
-// let prevScrollTop = 0;
-// if (typeof window !== "undefined"){
-//   setInterval(()=>{
-//     document.addEventListener("scroll", function(){ 
-//       let nextScrollTop = window.pageYOffset || 0; 
-//         if (nextScrollTop > prevScrollTop){
-//             setPageStatus("down");
-//         } else if (nextScrollTop < prevScrollTop){
-//             setPageStatus("up");
-//         }
-//         prevScrollTop = nextScrollTop;
-//     })
-//   })
-// }
-
 
   const word = "'주린이'";
 

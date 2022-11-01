@@ -29,15 +29,6 @@ export default function Header() {
   
   }
 
-  const scrollDown = e => {
-    if (!window.scrollY) return;
-
-    window.scrollTo({
-      bottom: 0,
-      behavior: 'smooth'
-    });
-  }
-
   const word = "'주린이'";
 
   return (

@@ -30,16 +30,6 @@ export default function En() {
   
   }
 
-  const scrollDown = e => {
-    if (!window.scrollY) return;
-
-    window.scrollTo({
-      bottom: 0,
-      behavior: 'smooth'
-    });
-  
-  }
-
   const and = "&";
   const am = "'m";
 

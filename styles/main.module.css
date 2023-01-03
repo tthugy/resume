@@ -601,7 +601,7 @@
 }} 
 
 .menuHover {
-    width: 9rem!important;
+    width: fit-content!important;
     border-radius: 3rem!important;
 }
 

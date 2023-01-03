@@ -42,15 +42,18 @@ export default function Header() {
             <div className={`${styles.linkCollect}`}>
                 <a onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
+                  <span>Link to Github</span>
                 </a>
                 <a onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
                   <i className="bi bi-linkedin"></i>
+                  <span>Link to Linkedin</span>
                 </a>
                 {/* <a className={styles.docs}>
                   <i class="bi bi-filetype-pdf"></i>
                 </a> */}
                 <a onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
                   <i className={`bi bi-at`}></i>
+                  <span>cwstwin1@gmail.com</span>
                 </a>
             </div>
             <div className={styles.codeTxt}>저는 2년차 <span className={styles.fe}>프론트엔드 개발자</span>입니다. 꾸준한 자기계발을 통해 학습한 것들로 더욱 견고한 개발자가 되고자 합니다. 저는 프론트엔드 개발자의 핵심 역량은 API 연동을 문제없이 하는 것뿐만 아니라 사용자가 더욱 오랫동안 페이지에 머무르고 싶도록 개선해 나가는 것이 핵심 역량이라고 생각합니다.  사용자 경험에 해가 되는 무분별한 이벤트는 지양해야겠지만, 사용자에게 보다 편리한 경험을 제공하는 것이 저의 목표입니다.</div>

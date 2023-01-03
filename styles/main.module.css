@@ -608,3 +608,14 @@
 .menuHover i{
     left: 20%!important;
 }
+
+.menuHover span {
+    display: block!important;
+    color: white;
+}
+
+.linkCollect a span {
+    font-size: .9rem;
+    display: none;
+    translate: all 1s ease;
+}

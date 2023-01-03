@@ -617,5 +617,5 @@
 .linkCollect a span {
     font-size: .9rem;
     display: none;
-    translate: all 1s ease;
+    transition: all ease 1s;
 }

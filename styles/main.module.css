@@ -62,6 +62,7 @@
     background: #0b65c2;
     display: inline-block;
     position: relative;
+    transition: all ease 1s;
 }
 
 @media (max-width: 1023px){ .linkCollect a {
@@ -78,6 +79,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: all ease 1s;
 }
 
 @media (max-width: 1023px){ .linkCollect a i {
@@ -597,3 +599,12 @@
 @media (max-width: 1023px){ .pLink {
     padding-top: 0.15rem;
 }} 
+
+.menuHover {
+    width: 9rem!important;
+    border-radius: 3rem!important;
+}
+
+.menuHover i{
+    left: 20%!important;
+}

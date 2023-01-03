@@ -610,14 +610,14 @@
 }
 
 .menuHover span {
-    display: block!important;
+    display: block;
     color: white;
     animation: fadein 1.5s;
 }
 
 .linkCollect a span {
     font-size: .9rem;
-    display: none;
+    opacity: 0;
     transition: all ease 1s;
     margin: 0 1rem 0 2.8rem;
     line-height: 2.8rem;

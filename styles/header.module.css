@@ -105,3 +105,13 @@
 .linkCollect a:first-child {
     margin-left: 0!important;
 }
+
+.menuHover {
+    width: 8rem;
+    border-radius: 3rem;
+    transition: all ease 1s;
+}
+
+.hoverIcon {
+    left: 20%;
+}

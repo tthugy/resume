@@ -103,7 +103,7 @@ export default function Header() {
             <div className={styles.pLeft}>
               <p>워블</p>
               <span className={styles.pTimeLine}>
-                <i className="bi bi-calendar-event"></i> &nbsp;22.07 ~ current
+                <i className="bi bi-calendar-event"></i> &nbsp;22.07 ~ 22.08
               </span>
               <ul className={styles.projectDesc}>
                 <li>📍 업무 효율을 높여 주는 스케줄 관리 협업툴</li>
@@ -115,7 +115,7 @@ export default function Header() {
                   <li>zustand</li>
                 </ul>
                 <li className={styles.bold}>💬 Description</li>
-                <span>초기 설계단계부터 참여하여 현재까지 진행 중인 프로젝트</span>
+                <span>초기 설계단계부터 참여해서 현재까지 진행 중인 프로젝트</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   <li>프로젝트 초기 React Application Architecture 설계</li>
                   <li>팀 내 Next.js 도입</li>

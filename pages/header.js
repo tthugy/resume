@@ -14,6 +14,8 @@ export default function Header() {
     AOS.init();
   })
 
+  const [hover, setHover] = useState(false);
+
   return (
     <header>
         <span data-aos="fade-up" data-aos-duration="800" className={styles.tIcon}>
@@ -25,7 +27,7 @@ export default function Header() {
           <p>Resume of <span>Wonseok Choi</span></p>
         </div>
         <div data-aos="fade-up" data-aos-duration="800" className={`${styles.linkCollect}`}>
-            <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
+            <a onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)} className={`${hover !== false ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
               <i className="bi bi-github"></i>
             </a>
             <a target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>

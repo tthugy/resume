@@ -37,12 +37,12 @@
 
 .linkCollect {
     font-size: 1.6rem;
-    margin: 3.5rem 0 0;
+    margin: 3.5rem 0 1rem;
     display: block;
 }
 
 @media (max-width: 1023px){ .linkCollect {
-    display: none;
+    display: none!important;
     position: absolute;
     font-size: 1.25rem!important;
     background: none;
@@ -62,7 +62,7 @@
     background: #0b65c2;
     display: inline-block;
     position: relative;
-    transition: all ease 1s;
+    transition: all ease .8s;
 }
 
 @media (max-width: 1023px){ .linkCollect a {
@@ -79,7 +79,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: all ease 1s;
+    transition: all ease .8s;
 }
 
 @media (max-width: 1023px){ .linkCollect a i {
@@ -606,16 +606,32 @@
 }
 
 .menuHover i{
-    left: 20%!important;
+    left: 14%!important;
 }
 
 .menuHover span {
     display: block!important;
     color: white;
+    animation: fadein 1.5s;
 }
 
 .linkCollect a span {
     font-size: .9rem;
     display: none;
     transition: all ease 1s;
+    margin: 0 1rem 0 2.8rem;
+    line-height: 2.8rem;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.flex {
+    display: inline-flex;
 }

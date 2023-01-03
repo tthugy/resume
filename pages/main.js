@@ -31,7 +31,7 @@ export default function Header() {
 
   const word = "'주린이'";
 
-  const [hover, setHover] = useState("");
+  const [hover, setHover] = useState(1);
 
   return (
     <main className={styles.main}>
@@ -39,7 +39,7 @@ export default function Header() {
             <p>
               안녕하세요. 프론트엔드 개발자 최원석입니다.
             </p>
-            <div className={`${styles.linkCollect}`}>
+            <div className={`${styles.linkCollect} ${styles.flex}`}>
                 <a onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
                   <span>Link to Github</span>

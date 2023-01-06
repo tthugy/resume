@@ -612,14 +612,14 @@
 .menuHover span {
     display: block;
     color: white;
-    animation: fadein 1.5s;
-    opacity: 1;
+    /* animation: fadein 1.5s; */
+    opacity: 1!important;
 }
 
 .linkCollect a span {
     font-size: .9rem;
     opacity: 0;
-    transition: all ease 1s;
+    /* transition: all ease 1s; */
     margin: 0 1rem 0 2.8rem;
     line-height: 2.8rem;
 }
@@ -638,5 +638,5 @@
 }
 
 .test {
-    
+
 }

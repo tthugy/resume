@@ -124,7 +124,7 @@ export default function Header() {
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   <li>프로젝트 초기 React Application Architecture 설계</li>
                   <li>팀 내 Next.js 도입</li>
-                  <li>Axois를 통해 Node.js REST API 연동</li>
+                  <li>Axois를 통해 Node.js API 연동</li>
                   <li>github로 이슈 관리, jenkins 파이프라인을 통한 지속적 통합 및 배포</li>
                 </ul>
               </ul>

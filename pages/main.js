@@ -144,7 +144,7 @@ export default function Header() {
                 <li>📍 페이, 커머스, 거래소 등 다양한 서비스를 즐길 수 있는 App</li>
                 <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
-                  <li>Vanilla Html + CSS + Javascript</li>
+                  <li>Vanilla Html + CSS + Jqeury</li>
                   <li>Ajax</li>
                   <li>Socket.io</li>
                   <li>WebView</li>

@@ -32,6 +32,7 @@ export default function En() {
 
   const and = "&";
   const am = "'m";
+  const [hover, setHover] = useState(1);
 
   return (
     <>
@@ -41,18 +42,21 @@ export default function En() {
             <p>
                 Hello. I{am} Wonseok Choi, a Front-end developer.
             </p>
-            <div className={`${styles.linkCollect}`}>
-                <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
+            <div className={`${styles.linkCollect} ${styles.flex}`}>
+                <a onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
+                  <span>Link to Github</span>
                 </a>
-                <a target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
+                <a onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
                   <i className="bi bi-linkedin"></i>
+                  <span>Link to Linkedin</span>
                 </a>
                 {/* <a className={styles.docs}>
                   <i class="bi bi-filetype-pdf"></i>
                 </a> */}
-                <a href='mailto:cwstwin1@gmail.com'>
+                <a onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
                   <i className={`bi bi-at`}></i>
+                  <span>cwstwin1@gmail.com</span>
                 </a>
             </div>
             <div className={styles.codeTxt}>I{am} a 2nd year <span className={styles.fe}>frontend developer</span>. I want to become a stronger developer with what I have learned through steady self-development. I think that the core competency of a front-end developer is not only to make API integration without problems, but also to improve it so that users want to stay on the page for a longer period of time. Although indiscriminate events that harm the user experience should be avoided, my goal is to provide a more convenient experience for users.</div>

@@ -127,7 +127,7 @@ export default function En() {
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   <li>Design of React Application Architecture at the beginning of the project</li>
                   <li>Adoption of Next.js within the team</li>
-                  <li>Node.js API integration through Axois</li>
+                  <li>Node.js API integration through Axios</li>
                   <li>Issue management with github, continuous integration and deployment through jenkins pipeline</li>
                 </ul>
               </ul>

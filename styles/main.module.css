@@ -588,6 +588,16 @@
     background-size: contain;
 }
 
+.jinclass1 {
+    background: url('../public/jinclass1.png')center center no-repeat;
+    background-size: contain;
+}
+
+.jinclass2 {
+    background: url('../public/jinclass2.png')center center no-repeat;
+    background-size: contain;
+}
+
 .pLink {
     font-size: 1rem;
     margin-left: 0.7rem;

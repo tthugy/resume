@@ -136,6 +136,39 @@ export default function Header() {
         </div>
 
         <div className={styles.project}>
+          <p data-aos="fade-left" data-aos-duration="600" className={`${styles.titles} ${styles.ctitles}`}>Personal Projects<span>d</span></p>
+          <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
+            <div className={styles.pLeft}>
+              <p className="projectLink">
+                <a target='_blank' href='https://jinclass.com/' rel='noopener noreferrer'>피아노 레슨 플랫폼 - Jinclass<i className={`${styles.pLink} bi bi-box-arrow-up-right`}></i></a>
+              </p>
+              <span className={styles.pTimeLine}>
+                <i className="bi bi-calendar-event"></i> &nbsp;22.09 ~ current
+              </span>
+              <ul className={styles.projectDesc}>
+                <li>📍 소안도 아이들을 위한 피아노 레슨 교육 봉사 프로젝트</li>
+                <li className={styles.bold}>💡 Tech Stacks</li>
+                <ul className={styles.pDetailDesc}>
+                  <li>Vanilla Html + CSS + JQeury</li>
+                  <li>PHP</li>
+                  <li>MySQL</li>
+                </ul>
+                <li className={styles.bold}>💬 Description</li>
+                {/* <span></span> */}
+                <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
+                  <li>프론트엔드 인터페이스 구현</li>
+                  <li>GitHub Action을 기반으로 CI/CD 구성</li>
+                </ul>
+              </ul>
+            </div>
+            <div className={styles.pRight}>
+              <span className={`${styles.pImage} ${styles.jinclass1}`}></span>
+              <span className={`${styles.pImage} ${styles.jinclass2}`}></span>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.project}>
           <p data-aos="fade-left" data-aos-duration="600" className={`${styles.titles} ${styles.ctitles}`}>Commercial Projects<span>d</span></p>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
@@ -204,7 +237,7 @@ export default function Header() {
                 <li>📍 투자 초보자({word})들에게 투자에 필요한 지식을 동영상 강의로 제공하는 Web App</li>
                 <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
-                  <li>Php</li>
+                  <li>PHP</li>
                   <li>MySQL</li>
                 </ul>
                 <li className={styles.bold}>💬 Description</li>

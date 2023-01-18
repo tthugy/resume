@@ -157,7 +157,6 @@ export default function Header() {
                 {/* <span></span> */}
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   <li>프론트엔드 인터페이스 구현</li>
-                  <li>GitHub Action을 기반으로 CI/CD 구성</li>
                 </ul>
               </ul>
             </div>

@@ -63,7 +63,7 @@ export default function Header() {
           <ul>
             <li>
               <div>
-                정상
+                (주)정상
                 <span>프론트엔드 개발자</span> 
                 <span className={styles.comPeriod}>21.04 ~ 22.08</span> 
               </div>
@@ -140,7 +140,7 @@ export default function Header() {
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
               <p className="projectLink">
-                <a target='_blank' href='https://jinclass.com/' rel='noopener noreferrer'>피아노 레슨 플랫폼 - Jinclass<i className={`${styles.pLink} bi bi-box-arrow-up-right`}></i></a>
+                <a>피아노 레슨 플랫폼 - Jinclass</a>
               </p>
               <span className={styles.pTimeLine}>
                 <i className="bi bi-calendar-event"></i> &nbsp;22.09 ~ current

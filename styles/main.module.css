@@ -417,7 +417,7 @@
 
 @media (max-width: 1023px){ .pList p {
     font-size: 1.3rem;
-    margin-bottom: .8rem!important;
+    margin-bottom: .95rem!important;
 }} 
 
 .pSubment {
@@ -453,7 +453,7 @@
 }} 
 
 .pLeft p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 @media (max-width: 1023px){ .pLeft p {

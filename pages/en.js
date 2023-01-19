@@ -59,7 +59,7 @@ export default function En() {
                   <span>cwstwin1@gmail.com</span>
                 </a>
             </div>
-            <div className={styles.codeTxt}>I{am} a 2nd year <span className={styles.fe}>frontend developer</span>. I want to become a stronger developer with what I have learned through steady self-development. I think that the core competency of a front-end developer is not only to make API integration without problems, but also to improve it so that users want to stay on the page for a longer period of time. Although indiscriminate events that harm the user experience should be avoided, my goal is to provide a more convenient experience for users.</div>
+            <div className={styles.codeTxt}>Hello, I{am} Wonseok Choi, a 2nd year Frontend developer who wants to develop user-friendly services. I want to become a more solid developer with what I learned through steady self-development. I think that the core competency of front-end developers is not only to link APIs without problems, but also to improve so that users want to stay on the page for a longer time. I've been dealing with a lot of issues and thought about how the program can deliver good value to various people. My goal is to avoid reckless events that harm the user experience and to provide a more convenient experience for the user.</div>
         </div>
 
         <div data-aos="fade-up" data-aos-duration="800" className={styles.company}>

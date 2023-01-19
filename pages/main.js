@@ -150,6 +150,7 @@ export default function Header() {
                 <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Vanilla Html + CSS + JQeury</li>
+                  <li>Lottie.js</li>
                   <li>PHP</li>
                   <li>MySQL</li>
                 </ul>

@@ -5,8 +5,8 @@
 
 ## Stack
 
-- client: next.js
-- deploy: github-actions
+- client: Next.js
+- deploy: Github-actions
 
 <br/>
 

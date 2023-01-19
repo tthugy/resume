@@ -158,6 +158,7 @@ export default function Header() {
                 <span>기존 동영상 강의와 화상으로 진행되던 수업을 편리하게 관리하기 위한 프로젝트</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   <li>프로젝트 전체 기획·디자인·개발 구현</li>
+                  <li>벡터 기반의 애니메이션 라이브러리 Lottie 적용</li>
                 </ul>
               </ul>
             </div>
@@ -216,9 +217,9 @@ export default function Header() {
                   <li>WebView</li>
                 </ul>
                 <li className={styles.bold}>💬 Description</li>
-                <span>기존에 개발된 기능 유지보수 및 신규 거래소 개발</span>
+                <span>기존에 개발된 기능 유지보수 및 신규 거래소 기능 개발</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  <li>Socket.io, Chart.js를 통해 실시간 거래소 시세 및 차트 구현</li>
+                  <li>담당기능: Socket.io, Chart.js를 통해 실시간 거래소 시세 및 차트 구현</li>
                 </ul>
               </ul>
             </div>

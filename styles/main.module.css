@@ -28,13 +28,6 @@
     line-height: 1.75;
 }
 
-.fe {
-    font-weight: 600;
-    color: #666;
-    display: inline-block;
-    /* padding: 0 .05rem; */
-}
-
 .linkCollect {
     font-size: 1.6rem;
     margin: 3.5rem 0 1rem;
@@ -590,12 +583,14 @@
 
 .jinclass1 {
     background: url('../public/jinclass1.png')center center no-repeat;
-    background-size: contain;
+    background-size: cover;
+    margin: .3rem;
 }
 
 .jinclass2 {
     background: url('../public/jinclass2.png')center center no-repeat;
-    background-size: contain;
+    background-size: cover;
+    margin: .3rem;
 }
 
 .pLink {

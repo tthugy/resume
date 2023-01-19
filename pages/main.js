@@ -146,7 +146,7 @@ export default function Header() {
                 <i className="bi bi-calendar-event"></i> &nbsp;22.09 ~ current
               </span>
               <ul className={styles.projectDesc}>
-                <li>📍 소안도 아이들을 위한 피아노 레슨 교육 봉사 프로젝트</li>
+                <li>📍 전남 완도군 소안도 아이들을 위한 피아노 레슨 교육 봉사 프로젝트</li>
                 <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Vanilla Html + CSS + JQeury</li>
@@ -154,9 +154,9 @@ export default function Header() {
                   <li>MySQL</li>
                 </ul>
                 <li className={styles.bold}>💬 Description</li>
-                {/* <span></span> */}
+                <span>기존 동영상 강의와 화상으로 진행되던 수업을 편리하게 관리하기 위한 프로젝트</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  <li>기획·디자인·개발</li>
+                  <li>프로젝트 전체 기획·디자인·개발 구현</li>
                 </ul>
               </ul>
             </div>
@@ -185,7 +185,7 @@ export default function Header() {
                   <li>zustand</li>
                 </ul>
                 <li className={styles.bold}>💬 Description</li>
-                <span>초기 설계단계부터 참여해서 현재까지 진행 중인 프로젝트</span>
+                <span>초기 설계 단계부터 참여해서 진행했던 프로젝트</span>
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
                   <li>프로젝트 초기 React Application Architecture 설계</li>
                   <li>팀 내 Next.js 도입</li>

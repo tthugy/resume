@@ -156,7 +156,7 @@ export default function Header() {
                 <li className={styles.bold}>💬 Description</li>
                 {/* <span></span> */}
                 <ul className={`${styles.descUl} ${styles.pDetailDesc}`}>
-                  <li>기획 디자인 개발</li>
+                  <li>기획·디자인·개발</li>
                 </ul>
               </ul>
             </div>

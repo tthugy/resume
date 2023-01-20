@@ -583,14 +583,12 @@
 
 .jinclass1 {
     background: url('../public/jinclass1.png')center center no-repeat;
-    background-size: cover;
-    margin: .3rem;
+    background-size: contain;
 }
 
 .jinclass2 {
     background: url('../public/jinclass2.png')center center no-repeat;
-    background-size: cover;
-    margin: .3rem;
+    background-size: contain;
 }
 
 .pLink {

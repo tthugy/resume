@@ -597,10 +597,11 @@
     padding-top: 0.35rem;
     vertical-align: text-top;
     display: inline-block;
+    padding: .35rem .2rem .1rem;
 }
 
 @media (max-width: 1023px){ .pLink {
-    padding-top: 0.15rem;
+    padding: .15rem .1rem .1rem;
 }} 
 
 .menuHover {

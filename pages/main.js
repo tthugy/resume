@@ -40,18 +40,18 @@ export default function Header() {
               안녕하세요. 프론트엔드 개발자 최원석입니다.
             </p>
             <div className={`${styles.linkCollect} ${styles.flex}`}>
-                <a onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
+                <a title="Link to Github" onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
                   <span>Link to Github</span>
                 </a>
-                <a onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
+                <a title="Link to Linkedin" onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
                   <i className="bi bi-linkedin"></i>
                   <span>Link to Linkedin</span>
                 </a>
                 {/* <a className={styles.docs}>
                   <i class="bi bi-filetype-pdf"></i>
                 </a> */}
-                <a onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
+                <a title="Send Email" onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
                   <i className={`bi bi-at`}></i>
                   <span>cwstwin1@gmail.com</span>
                 </a>
@@ -79,7 +79,7 @@ export default function Header() {
             <ul>
               <li>주전공: 정보통신학</li>
               <li>복수전공:&nbsp;
-                <a target='_blank' href='https://www.bu.ac.kr/web/3812/subview.do' rel='noopener noreferrer'>
+                <a title="Link to Culture & Technology major" target='_blank' href='https://www.bu.ac.kr/web/3812/subview.do' rel='noopener noreferrer'>
                   컬처테크융합
                   <i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i>
                 </a>
@@ -98,7 +98,7 @@ export default function Header() {
           <span className={styles.commitDesc}>
             저는 개인 Github 계정을 만들어 퇴근 후와 주말 등의 여가시간에 daily study와 commit을 목표로 꾸준한 자기 계발을 해 왔습니다.
             <br/><br/>
-            위 이미지는 <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a> 커밋 내역을 그래프화한 것으로써, 이를 한눈에 보여줍니다.
+            위 이미지는 <a target='_blank' title="Link to github account" href='https://github.com/tthugy' rel='noopener noreferrer'>제 Github 계정<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a> 커밋 내역을 그래프화한 것으로써, 이를 한눈에 보여줍니다.
           </span>
         </div>
 
@@ -107,7 +107,7 @@ export default function Header() {
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
               <p className="projectLink">
-                <a target='_blank' href='https://github.com/tthugy/resume-template-nextJS' rel='noopener noreferrer'>resume-template-nextJS<i className={`${styles.pLink} bi bi-box-arrow-up-right`}></i></a>
+                <a target='_blank' title="Link to github repository" href='https://github.com/tthugy/resume-template-nextJS' rel='noopener noreferrer'>resume-template-nextJS<i className={`${styles.pLink} bi bi-box-arrow-up-right`}></i></a>
               </p>
               <span className={styles.pTimeLine}>
                 <i className="bi bi-calendar-event"></i> &nbsp;22.07 ~ current
@@ -255,7 +255,7 @@ export default function Header() {
           </div>
         </div>
 
-        <p onClick={scrollTop} className={styles.end}>
+        <p title="Click to Up" onClick={scrollTop} className={styles.end}>
           감사합니다.
         </p>
 

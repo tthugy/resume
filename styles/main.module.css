@@ -604,39 +604,6 @@
     padding: .15rem .1rem .1rem;
 }} 
 
-.menuHover {
-    width: fit-content!important;
-    border-radius: 3rem!important;
-}
-
-.menuHover i{
-    left: 14%!important;
-}
-
-.menuHover span {
-    display: block;
-    color: white;
-    /* animation: fadein 1.5s; */
-    opacity: 1!important;
-}
-
-.linkCollect a span {
-    font-size: .9rem;
-    opacity: 0;
-    /* transition: all ease 1s; */
-    margin: 0 1rem 0 2.8rem;
-    line-height: 2.8rem;
-}
-
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 .flex {
     display: inline-flex;
 }

@@ -32,7 +32,6 @@ export default function En() {
 
   const and = "&";
   const am = "'m";
-  const [hover, setHover] = useState(1);
 
   return (
     <>
@@ -43,20 +42,17 @@ export default function En() {
                 Hello. I{am} Wonseok Choi, a Front-end developer.
             </p>
             <div className={`${styles.linkCollect} ${styles.flex}`}>
-                <a title="Link to Github" onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
+                <a title="Link to Github" target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
-                  <span>Link to Github</span>
                 </a>
-                <a title="Link to Linkedin" onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
+                <a title="Link to Linkedin" target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
                   <i className="bi bi-linkedin"></i>
-                  <span>Link to Linkedin</span>
                 </a>
                 {/* <a className={styles.docs}>
                   <i class="bi bi-filetype-pdf"></i>
                 </a> */}
-                <a title="Send Email" onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
+                <a title="Send Email" href='mailto:cwstwin1@gmail.com'>
                   <i className={`bi bi-at`}></i>
-                  <span>cwstwin1@gmail.com</span>
                 </a>
             </div>
             <div className={styles.codeTxt}>Hello, I{am} Wonseok Choi, a 2nd year Frontend developer who wants to develop user-friendly services. I want to become a more solid developer with what I learned through steady self-development. I think that the core competency of front-end developers is not only to link APIs without problems, but also to improve so that users want to stay on the page for a longer time. I have been dealing with a lot of issues and thought about how the program can deliver good value to various people. My goal is to avoid reckless events that harm the user experience and to provide a more convenient experience for the user.</div>

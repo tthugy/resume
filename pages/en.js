@@ -43,18 +43,18 @@ export default function En() {
                 Hello. I{am} Wonseok Choi, a Front-end developer.
             </p>
             <div className={`${styles.linkCollect} ${styles.flex}`}>
-                <a onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
+                <a title="Link to Github" onMouseEnter={()=>setHover(1)} onMouseLeave={()=>setHover("")} className={`${hover === 1 ? styles.menuHover : ""}`} target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>
                   <i className="bi bi-github"></i>
                   <span>Link to Github</span>
                 </a>
-                <a onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
+                <a title="Link to Linkedin" onMouseEnter={()=>setHover(2)} onMouseLeave={()=>setHover("")} className={`${hover === 2 ? styles.menuHover : ""}`} target='_blank' href='https://www.linkedin.com/in/wonseok-choi-b6041922b/' rel='noopener noreferrer'>
                   <i className="bi bi-linkedin"></i>
                   <span>Link to Linkedin</span>
                 </a>
                 {/* <a className={styles.docs}>
                   <i class="bi bi-filetype-pdf"></i>
                 </a> */}
-                <a onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
+                <a title="Send Email" onMouseEnter={()=>setHover(3)} onMouseLeave={()=>setHover("")} className={`${hover === 3 ? styles.menuHover : ""}`} href='mailto:cwstwin1@gmail.com'>
                   <i className={`bi bi-at`}></i>
                   <span>cwstwin1@gmail.com</span>
                 </a>
@@ -82,7 +82,7 @@ export default function En() {
             <ul>
               <li>major: Information {and} Communication</li>
               <li>double majoring:&nbsp;
-                <a target='_blank' href='https://www.bu.ac.kr/web/3812/subview.do' rel='noopener noreferrer'>
+                <a title="Link to Culture & Technology major" target='_blank' href='https://www.bu.ac.kr/web/3812/subview.do' rel='noopener noreferrer'>
                     Intergrated Culture {and} Technology
                   <i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i>
                 </a>
@@ -101,7 +101,7 @@ export default function En() {
           <span className={styles.commitDesc}>
             I have created a personal Github account and have been steadily developing myself with the goal of daily study and commit in my spare time after work and on weekends.
             <br/><br/>
-            The image above is a graph of the commit history of <a target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>my Github account<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a>, showing it at a glance.
+            The image above is a graph of the commit history of <a title="Link to github account" target='_blank' href='https://github.com/tthugy' rel='noopener noreferrer'>my Github account<i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i></a>, showing it at a glance.
           </span>
         </div>
 
@@ -110,7 +110,7 @@ export default function En() {
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
             <div className={styles.pLeft}>
               <p className="projectLink">
-                <a target='_blank' href='https://github.com/tthugy/resume-template-nextJS' rel='noopener noreferrer'>resume-template-nextJS<i className={`${styles.pLink} bi bi-box-arrow-up-right`}></i></a>
+                <a title="Link to github repository" target='_blank' href='https://github.com/tthugy/resume-template-nextJS' rel='noopener noreferrer'>resume-template-nextJS<i className={`${styles.pLink} bi bi-box-arrow-up-right`}></i></a>
               </p>
               <span className={styles.pTimeLine}>
                 <i className="bi bi-calendar-event"></i> &nbsp;22.07 ~ current
@@ -224,7 +224,7 @@ export default function En() {
           </div>
         </div>
 
-        <p onClick={scrollTop} className={styles.end}>
+        <p title="Click to Up" onClick={scrollTop} className={styles.end}>
           Thanks for reading my portfolio.
         </p>
 

@@ -220,7 +220,7 @@ export default function En() {
           </div>
         </div>
 
-        <p title="Click to Up" onClick={scrollTop} className={styles.end}>
+        <p title="Click to go up" onClick={scrollTop} className={styles.end}>
           Thanks for reading my portfolio.
         </p>
 

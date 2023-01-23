@@ -250,7 +250,7 @@ export default function Header() {
           </div>
         </div>
 
-        <p title="Click to Up" onClick={scrollTop} className={styles.end}>
+        <p title="Click to go up" onClick={scrollTop} className={styles.end}>
           감사합니다.
         </p>
 

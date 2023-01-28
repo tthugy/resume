@@ -112,7 +112,7 @@ export default function Header() {
                 <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Next.js</li>
-                  <li>CSS-module</li>
+                  <li>CSS Module</li>
                   <li>Github actions</li>
                 </ul>
                 <li className={styles.bold}>💬 Description</li>
@@ -177,7 +177,7 @@ export default function Header() {
                 <li className={styles.bold}>💡 Tech Stacks</li>
                 <ul className={styles.pDetailDesc}>
                   <li>Next.js</li>
-                  <li>CSS-module</li>
+                  <li>CSS Module</li>
                   <li>Axios</li>
                   <li>zustand</li>
                 </ul>

@@ -192,8 +192,8 @@ export default function Header() {
               </ul>
             </div>
             <div className={styles.pRight}>
-              <span className={`${styles.pImage} ${styles.wobble1}`}></span>
-              <span className={`${styles.pImage} ${styles.wobble2}`}></span>
+              <span title="Wobble image1" className={`${styles.pImage} ${styles.wobble1}`}></span>
+              <span title="Wobble image2" className={`${styles.pImage} ${styles.wobble2}`}></span>
             </div>
           </div>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>

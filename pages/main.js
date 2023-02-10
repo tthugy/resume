@@ -124,8 +124,8 @@ export default function Header() {
               </ul>
             </div>
             <div className={styles.pRight}>
-              <span className={`${styles.pImage} ${styles.resume1}`}></span>
-              <span className={`${styles.pImage} ${styles.resume2}`}></span>
+              <span title="resume-template image1" className={`${styles.pImage} ${styles.resume1}`}></span>
+              <span title="resume-template image2" className={`${styles.pImage} ${styles.resume2}`}></span>
             </div>
           </div>
         </div>

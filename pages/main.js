@@ -124,8 +124,8 @@ export default function Header() {
               </ul>
             </div>
             <div className={styles.pRight}>
-              <span title="resume-template image1" className={`${styles.pImage} ${styles.resume1}`}></span>
-              <span title="resume-template image2" className={`${styles.pImage} ${styles.resume2}`}></span>
+              <span title="Resume-template image1" className={`${styles.pImage} ${styles.resume1}`}></span>
+              <span title="Resume-template image2" className={`${styles.pImage} ${styles.resume2}`}></span>
             </div>
           </div>
         </div>
@@ -158,8 +158,8 @@ export default function Header() {
               </ul>
             </div>
             <div className={styles.pRight}>
-              <span className={`${styles.pImage} ${styles.jinclass1}`}></span>
-              <span className={`${styles.pImage} ${styles.jinclass2}`}></span>
+              <span title="Jinclass image1" className={`${styles.pImage} ${styles.jinclass1}`}></span>
+              <span title="Jinclass image2" className={`${styles.pImage} ${styles.jinclass2}`}></span>
             </div>
           </div>
         </div>

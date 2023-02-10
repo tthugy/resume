@@ -219,8 +219,8 @@ export default function Header() {
               </ul>
             </div>
             <div className={styles.pRight}>
-              <span className={`${styles.pImage} ${styles.thx1}`}></span>
-              <span className={`${styles.pImage} ${styles.thx2}`}></span>
+              <span title="Thxpay image1" className={`${styles.pImage} ${styles.thx1}`}></span>
+              <span title="Thxpay image2" className={`${styles.pImage} ${styles.thx2}`}></span>
             </div>
           </div>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.pList}>
@@ -244,8 +244,8 @@ export default function Header() {
               </ul>
             </div>
             <div className={styles.pRight}>
-              <span className={`${styles.pImage} ${styles.samsung1}`}></span>
-              <span className={`${styles.pImage} ${styles.samsung2}`}></span>
+              <span title="samsung-schoolpop image1" className={`${styles.pImage} ${styles.samsung1}`}></span>
+              <span title="samsung-schoolpop image2" className={`${styles.pImage} ${styles.samsung2}`}></span>
             </div>
           </div>
         </div>

@@ -607,3 +607,8 @@
 .flex {
     display: inline-flex;
 }
+
+.impact {
+    font-weight: 900;
+    color: #568ec7;
+}

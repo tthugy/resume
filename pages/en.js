@@ -91,7 +91,7 @@ export default function En() {
           <p data-aos="fade-left" data-aos-duration="600" className={styles.titles}>Self Improvement<span>b</span></p>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.commitImg}>
             <span className={styles.commit}>
-              <Image alt="Commit Graph" src={Commit} layout='responsive' objectFit='contain' priority />
+              <Image title="Github commit graph" alt="Commit Graph" src={Commit} layout='responsive' objectFit='contain' priority />
             </span>
           </div>
           <span className={styles.commitDesc}>

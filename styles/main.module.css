@@ -607,8 +607,3 @@
 .flex {
     display: inline-flex;
 }
-
-.supportBox {
-    font-size: .8rem;
-    font-weight: 600;
-}

@@ -13,6 +13,10 @@ const modalStatus = () => {
   setModalView(prev => !prev);
 }
 
+const modalContext = () => {
+  setModalView(prev => !prev);
+}
+
   return (
     <div className="modal">
         <div className="modalTxt"></div>

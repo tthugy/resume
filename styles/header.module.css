@@ -105,3 +105,11 @@
 .linkCollect a:first-child {
     margin-left: 0!important;
 }
+
+.checker {
+    background: #3560b8;
+    color: #fff;
+    border-radius: 20rem;
+    width: 8rem;
+    padding: 1rem 0;
+}

@@ -72,10 +72,10 @@ export default function Header() {
           <div data-aos="fade-up" data-aos-duration="800" className={styles.eduCont}>
             <span>백석대학교, 16.03 ~ 22.02</span>
             <ul>
-              <li>주전공: 정보통신학</li>
+              <li>주전공: 컴퓨터공학부 정보통신학 전공</li>
               <li>복수전공:&nbsp;
                 <a title="Link to Culture & Technology major" target='_blank' href='https://www.bu.ac.kr/web/3812/subview.do' rel='noopener noreferrer'>
-                  컬처테크융합
+                  혁신융합학부 컬처테크융합 전공
                   <i className={`${styles.pageOut} bi bi-box-arrow-up-right`}></i>
                 </a>
               </li>

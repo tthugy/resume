@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link'
 import styles from '../styles/main.module.css'
 import Commit from '../public/myCommit.png'
+import Logo from '../public/bu_logo.png'
 import samsung1 from '../public/samsung1.png'
 import samsung2 from '../public/samsung2.png'
 import wobble1 from '../public/wobble1.png'
@@ -70,7 +71,10 @@ export default function Header() {
         <div className={styles.education}>
           <p data-aos="fade-left" data-aos-duration="600" className={styles.titles}>Educations<span>a</span></p>
           <div data-aos="fade-up" data-aos-duration="800" className={styles.eduCont}>
-            <span>백석대학교, 16.03 ~ 22.02</span>
+            <span>
+              {/* <Image title="BU Logo" alt="BU Logo" src={Logo} priority />   */}
+              백석대학교, 16.03 ~ 22.02
+            </span>
             <ul>
               <li>주전공: 컴퓨터공학부 정보통신학 전공</li>
               <li>복수전공:&nbsp;

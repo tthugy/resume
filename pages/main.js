@@ -73,7 +73,7 @@ export default function Header() {
           <div data-aos="fade-up" data-aos-duration="800" className={styles.eduCont}>
             <span>
               {/* <Image title="BU Logo" alt="BU Logo" src={Logo} priority />   */}
-              백석대학교, 16.03 ~ 22.02
+              백석대학교, 16.03 ~ 22.02 
             </span>
             <ul>
               <li>주전공: 컴퓨터공학부 정보통신학 전공</li>
